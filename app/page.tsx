@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const RADAR_URL = "https://www.aichangeradar.com";
+const NAVIGATOR_URL = "https://azxai-navigator.onrender.com";
 
 export default function HomePage() {
   return (
@@ -68,9 +69,9 @@ export default function HomePage() {
                 <p>Equalibra Financial Independence planning with balance at the center.</p>
               </div>
               <div className="orbit-card">
-                <span className="mini-tag green">For SMBs</span>
-                <h4>AZxAI Radar</h4>
-                <p>Which AI to adopt next — and what to skip. Opportunity radar for SMBs.</p>
+                <span className="mini-tag green">AI Ops Companion</span>
+                <h4>AZxAI Navigator</h4>
+                <p>Map your AI operations, see which vendor changes touch them, and act before they bite.</p>
               </div>
               <div className="orbit-card">
                 <span className="mini-tag violet">Shipped Proof</span>
@@ -256,21 +257,22 @@ export default function HomePage() {
             <article className="card">
               <div className="card-icon" aria-hidden="true">🎯</div>
               <div style={{ marginTop: 16 }}>
-                <span className="status soon">Coming Soon — For SMBs</span>
+                <span className="status live">Live — azxai-navigator.onrender.com</span>
               </div>
-              <h3>AZxAI Radar for SMBs</h3>
+              <h3>AZxAI Navigator</h3>
               <p>
-                The opportunity companion to AI Change Radar. Where Change Radar tells you
-                what shifted in your current stack, AZxAI Radar tells SMBs which AI to
-                adopt next — and which hype to safely ignore.
+                The companion platform to AI Change Radar. Navigator maps your AI
+                operations, matches each vendor change to the workflows it actually
+                touches, and turns act-now alerts into approved, tracked action —
+                $74.99/mo.
               </p>
               <ul>
-                <li>Adoption radar scored for SMB fit, cost, and risk</li>
-                <li>Readiness checks before you commit budget</li>
-                <li>Pairs with AI Change Radar for full-stack awareness</li>
+                <li>Exposure matching: which of your workflows each change hits</li>
+                <li>Decision sandbox and action workspace, with recorded outcomes</li>
+                <li>Runs on AI Change Radar briefs and act-severity alerts</li>
               </ul>
-              <a href="mailto:anthony.castro@axiomzetainnovations.org?subject=AZxAI%20Radar%20for%20SMBs%20—%20early%20access" className="card-cta">
-                Request early access →
+              <a href={NAVIGATOR_URL} target="_blank" rel="noreferrer" className="card-cta">
+                Open AZxAI Navigator →
               </a>
             </article>
           </div>
@@ -433,7 +435,7 @@ export default function HomePage() {
               <li><span><strong style={{ color: "var(--text)" }}>Entity:</strong> Axiom Zeta Innovations LLC (Texas)</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Flagship:</strong> AI Change Radar — live at aichangeradar.com</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Sovereign line:</strong> Quadra-Seer Sovereign (local-first chatbot)</span></li>
-              <li><span><strong style={{ color: "var(--text)" }}>Next:</strong> EqualiF.I. Planner · AZxAI Radar for SMBs</span></li>
+              <li><span><strong style={{ color: "var(--text)" }}>Next:</strong> EqualiF.I. Planner · AZxAI Navigator (live)</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Shipped proof:</strong> Quadra-M.I.N.D. Sight (web live, Play in review)</span></li>
             </ul>
           </div>
