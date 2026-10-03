@@ -250,7 +250,7 @@ export default function HomePage() {
                 <li>Private by default; your finances stay yours</li>
               </ul>
               <a href="https://equalifi-planner.vercel.app" target="_blank" rel="noreferrer" className="card-cta">
-                Find Your Financial Equalibra →
+                Find Your Financial Equlibra →
               </a>
             </article>
 
