@@ -5,12 +5,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Axiom Zeta Innovations — Sovereign AI Systems",
   description:
-    "Axiom Zeta Innovations builds sovereign, operator-owned AI: AI Change Radar for SMB vendor intelligence, Quadra-Seer Sovereign local-first chatbot, EqualiF.I. Planner, and AZxAI Radar.",
+    "Axiom Zeta Innovations builds sovereign, operator-owned AI: AI Change Radar for SMB vendor intelligence, Quadra-Seer Sovereign local-first chatbot, EqualiF.I. Planner, and AZxAI Navigator.",
   metadataBase: new URL("https://axiomzeta-innovations.com"),
   openGraph: {
     title: "Axiom Zeta Innovations — Sovereign AI Systems",
     description:
-      "Intelligence you own. AI Change Radar, Quadra-Seer Sovereign, EqualiF.I. Planner, and AZxAI Radar for SMBs.",
+      "Intelligence you own. AI Change Radar, Quadra-Seer Sovereign, EqualiF.I. Planner, and AZxAI Navigator.",
     type: "website",
   },
 };
@@ -74,7 +74,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">AI Change Radar ↗</a>
                     <Link href="/#quadra-seer">Quadra-Seer Sovereign</Link>
                     <Link href="/#products">EqualiF.I. Planner</Link>
-                    <Link href="/#products">AZxAI Radar for SMBs</Link>
+                    <Link href="/#products">AZxAI Navigator</Link>
                     <a href="https://quadra-mind-sight.onrender.com" target="_blank" rel="noreferrer">Quadra-M.I.N.D. Sight ↗</a>
                   </div>
                 </div>
