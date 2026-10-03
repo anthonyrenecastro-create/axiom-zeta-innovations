@@ -236,7 +236,7 @@ export default function HomePage() {
             <article className="card">
               <div className="card-icon" aria-hidden="true">⚖️</div>
               <div style={{ marginTop: 16 }}>
-                <span className="status soon">Coming Soon</span>
+                <span className="status live">Live — equalifi-planner.vercel.app</span>
               </div>
               <h3>EqualiF.I. Planner</h3>
               <p>
@@ -249,8 +249,8 @@ export default function HomePage() {
                 <li>Equalibra balance engine — income, spend, and freedom in equilibrium</li>
                 <li>Private by default; your finances stay yours</li>
               </ul>
-              <a href="mailto:anthony.castro@axiomzetainnovations.org?subject=EqualiF.I.%20Planner%20—%20early%20access" className="card-cta">
-                Request early access →
+              <a href="https://equalifi-planner.vercel.app" target="_blank" rel="noreferrer" className="card-cta">
+                Find Your Financial Equalibra →
               </a>
             </article>
 
