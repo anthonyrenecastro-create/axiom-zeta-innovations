@@ -301,21 +301,24 @@ export default function HomePage() {
               <h3>Sentinel Solo</h3>
               <p>For individual builders. One gateway, baseline drift detection, full GUI playground.</p>
               <ul><li>Stabilize / feedback / baseline-reset API</li><li>Drift diagnostics &amp; telemetry</li><li>Stripe checkout — key auto-provisioned</li></ul>
-              <a href={process.env.NEXT_PUBLIC_SENTINEL_SOLO_CHECKOUT_URL || "https://buy.stripe.com/dRm6oJ8cw6AT3oa1KF18c0a"} className="card-cta">Get Sentinel Solo →</a>
+              <Link href="/sentinel-solo" className="card-cta">Sentinel Solo product page →</Link>
+              <a href={process.env.NEXT_PUBLIC_SENTINEL_SOLO_CHECKOUT_URL || "https://buy.stripe.com/dRm6oJ8cw6AT3oa1KF18c0a"} className="card-cta">Subscribe — $59.99/mo →</a>
             </article>
             <article className="card">
               <span className="status dev">MVP — Teams</span>
               <h3>Sentinel Teams</h3>
               <p>For teams running RAG in production. Orgs, workspaces, roles, and shared API keys.</p>
               <ul><li>Everything in Solo</li><li>Workspaces, members &amp; audit</li><li>Workspace analytics</li></ul>
-              <a href={process.env.NEXT_PUBLIC_SENTINEL_TEAMS_CHECKOUT_URL || "https://buy.stripe.com/3cI6oJ0K48J12k6ahb18c0b"} className="card-cta">Get Sentinel Teams →</a>
+              <Link href="/sentinel-teams" className="card-cta">Sentinel Teams product page →</Link>
+              <a href={process.env.NEXT_PUBLIC_SENTINEL_TEAMS_CHECKOUT_URL || "https://buy.stripe.com/3cI6oJ0K48J12k6ahb18c0b"} className="card-cta">Subscribe — $89.99/mo →</a>
             </article>
             <article className="card">
               <span className="status dev">MVP Preview — Sovereign</span>
               <h3>Sentinel Sovereign</h3>
               <p>Enterprise preview. OIDC, policy engine, HA state and operator controls, config-gated in MVP.</p>
               <ul><li>Everything in Teams</li><li>OIDC / policy / airgap controls</li><li>Annual invoicing on request</li></ul>
-              <a href={process.env.NEXT_PUBLIC_SENTINEL_SOVEREIGN_CHECKOUT_URL || "https://buy.stripe.com/8x24gB64o2kDe2O3SN18c0c"} className="card-cta">Get Sentinel Sovereign →</a>
+              <Link href="/sentinel-sovereign" className="card-cta">Sentinel Sovereign product page →</Link>
+              <a href={process.env.NEXT_PUBLIC_SENTINEL_SOVEREIGN_CHECKOUT_URL || "https://buy.stripe.com/8x24gB64o2kDe2O3SN18c0c"} className="card-cta">Subscribe — $119.99/mo →</a>
             </article>
           </div>
           <p style={{color:"var(--muted-2)",fontSize:".9rem",marginTop:16}}>Sentinel gateways launch from Vercel-connected repos and are billed via Stripe. After checkout, Stripe webhooks provision your workspace and API key automatically — check the gateway GUI at <code>/ui</code> to retrieve it (shown once).</p>

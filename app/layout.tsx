@@ -34,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <nav className="topnav" aria-label="Main">
                 <Link href="/#platform">AI Change Radar</Link>
                 <Link href="/#products">Products</Link>
+                <Link href="/#sentinel">Sentinel</Link>
                 <Link href="/#quadra-seer">Quadra-Seer</Link>
                 <Link href="/#principles">Principles</Link>
                 <Link href="/#about">About</Link>
@@ -73,6 +74,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <div className="footer-links">
                     <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">AI Change Radar ↗</a>
                     <Link href="/#quadra-seer">Quadra-Seer Sovereign</Link>
+                    <Link href="/sentinel-solo">Sentinel Solo</Link>
+                    <Link href="/sentinel-teams">Sentinel Teams</Link>
+                    <Link href="/sentinel-sovereign">Sentinel Sovereign</Link>
                     <Link href="/#products">EqualiF.I. Planner</Link>
                     <Link href="/#products">AZxAI Navigator</Link>
                     <a href="https://quadra-mind-sight.onrender.com" target="_blank" rel="noreferrer">Quadra-M.I.N.D. Sight ↗</a>
