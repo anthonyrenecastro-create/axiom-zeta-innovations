@@ -277,11 +277,6 @@ export default function HomePage() {
             </article>
           </div>
 
-          <div className="notice" role="note">
-            <strong>Also shipped:</strong> Quadra-M.I.N.D. Sight, our metacognitive training app, is{" "}
-            <a href="https://quadra-mind-sight.onrender.com" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 700 }}>live on the web</a>{" "}
-            and in Google Play review — proof the studio ships. Alchemy Factory (Solana devnet creator studio) is in active development.
-          </div>
         </div>
       </section>
 
