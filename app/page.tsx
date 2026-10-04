@@ -8,6 +8,25 @@ export default function HomePage() {
     <>
       {/* ── HERO ─────────────────────────────────────────────── */}
       <section className="hero">
+        <div className="container" style={{ marginBottom: 28 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 12 }}>
+            <a href={RADAR_URL} target="_blank" rel="noreferrer" className="card" style={{ display: "block", padding: "18px 20px" }}>
+              <span className="mini-tag gold">01 · SMB operators</span>
+              <h3 style={{ margin: "10px 0 6px" }}>AI Change Radar →</h3>
+              <p style={{ margin: 0 }}>Weekly AI vendor-change briefs. Start here if AI tools run your business.</p>
+            </a>
+            <Link href="/#sentinel" className="card" style={{ display: "block", padding: "18px 20px" }}>
+              <span className="mini-tag teal">02 · AI builders</span>
+              <h3 style={{ margin: "10px 0 6px" }}>Sentinel →</h3>
+              <p style={{ margin: 0 }}>Drift prevention for LLM and RAG systems.</p>
+            </Link>
+            <Link href="/#quadra-seer" className="card" style={{ display: "block", padding: "18px 20px" }}>
+              <span className="mini-tag green">03 · Sovereign</span>
+              <h3 style={{ margin: "10px 0 6px" }}>Quadra-Seer →</h3>
+              <p style={{ margin: 0 }}>Local AI on your machine. No cloud required.</p>
+            </Link>
+          </div>
+        </div>
         <div className="container hero-grid">
           <div>
             <p className="eyebrow">Axiom Zeta Innovations — Product Hub</p>

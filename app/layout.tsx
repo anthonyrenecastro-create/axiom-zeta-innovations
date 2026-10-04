@@ -28,20 +28,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <span className="brand-name">
                     Axiom Zeta <em>Innovations</em>
                   </span>
-                  <span className="brand-sub">Sovereign AI Systems</span>
+                  <span className="brand-sub">Product Hub — Pick Your Lane</span>
                 </span>
               </Link>
               <nav className="topnav" aria-label="Main">
-                <Link href="/#platform">AI Change Radar</Link>
-                <Link href="/#start-here">Start Here</Link>
-                <Link href="/#products">Systems</Link>
+                <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">Radar</a>
                 <Link href="/#sentinel">Sentinel</Link>
-                <Link href="/#quadra-seer">Quadra-Seer</Link>
-                <Link href="/#principles">Principles</Link>
-                <Link href="/#about">About</Link>
+                <a href="https://azxai-navigator.onrender.com" target="_blank" rel="noreferrer">Navigator</a>
+                <Link href="/#start-here">Start Here</Link>
+                <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer">Official LLC</a>
               </nav>
               <a href="https://www.aichangeradar.com/onboarding" target="_blank" rel="noreferrer" className="cta-button">
-                Start tracking →
+                Start with Radar →
               </a>
             </div>
           </header>
@@ -98,7 +96,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
               <div className="footer-bottom">
                 <p>© {new Date().getFullYear()} Axiom Zeta Innovations LLC. All rights reserved.</p>
-                <p>Intelligence you own.</p>
+                <p>Pick your lane. Own the system.</p>
               </div>
             </div>
           </footer>
