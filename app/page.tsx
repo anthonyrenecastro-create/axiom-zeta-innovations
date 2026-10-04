@@ -16,17 +16,16 @@ export default function HomePage() {
             </h1>
             <p className="lede">
               Axiom Zeta Innovations builds operator-owned AI for people who refuse to rent
-              their own judgment. Our flagship, <strong style={{ color: "var(--text)" }}>AI Change Radar</strong>,
-              watches the AI vendors your business depends on. Our sovereign line — led by{" "}
-              <strong style={{ color: "var(--text)" }}>Quadra-Seer</strong> — keeps intelligence
-              local, private, and under your control.
+              their own judgment. Start with the system built for your job: <strong style={{ color: "var(--text)" }}>AI Change Radar</strong> for
+              SMB vendor intelligence, <strong style={{ color: "var(--text)" }}>Sentinel</strong> for LLM/RAG reliability,
+              or <strong style={{ color: "var(--text)" }}>Quadra-Seer</strong> for sovereign local AI.
             </p>
             <div className="hero-actions">
               <a href={RADAR_URL} target="_blank" rel="noreferrer" className="button-gold">
-                Visit AI Change Radar →
+                Start with AI Change Radar →
               </a>
-              <Link href="#products" className="button-ghost">
-                Explore all products
+              <Link href="#start-here" className="button-ghost">
+                Choose your path
               </Link>
             </div>
             <div className="hero-proof" aria-label="Principles">
@@ -36,17 +35,17 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="constellation" aria-label="Axiom Zeta product constellation">
+          <div className="constellation" aria-label="Axiom Zeta product routes">
             <div className="constellation-head">
-              <strong>AXIOM ZETA / PRODUCT CONSTELLATION</strong>
+              <strong>AXIOM ZETA / START HERE</strong>
               <span className="live-pill">Radar Live</span>
             </div>
             <div className="core-card">
-              <span className="core-tag">Flagship Platform — Live</span>
+              <span className="core-tag">For SMB operators — Live</span>
               <h3>AI Change Radar</h3>
               <p>
-                Weekly vendor-change intelligence for SMBs. Product, pricing, security, and
-                policy shifts — sourced, ranked, and turned into next steps.
+                Weekly vendor-change intelligence for businesses running on AI tools.
+                The canonical product home is aichangeradar.com.
               </p>
               <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 16 }}>
                 <a href={RADAR_URL} target="_blank" rel="noreferrer" className="button-primary" style={{ padding: "11px 18px" }}>
@@ -59,26 +58,59 @@ export default function HomePage() {
             </div>
             <div className="orbit-grid">
               <div className="orbit-card">
-                <span className="mini-tag teal">Local-First Chatbot</span>
+                <span className="mini-tag teal">For AI builders — MVP</span>
+                <h4>Axiom Zeta Sentinel</h4>
+                <p>Drift prevention for LLM &amp; RAG systems. Start with Solo, Teams, or Sovereign preview.</p>
+              </div>
+              <div className="orbit-card">
+                <span className="mini-tag gold">Premium action layer</span>
+                <h4>AZxAI Navigator</h4>
+                <p>Turn Radar briefs into tracked decisions and approved action inside your AI operations.</p>
+              </div>
+              <div className="orbit-card">
+                <span className="mini-tag green">Sovereign lab</span>
                 <h4>Quadra-Seer Sovereign</h4>
                 <p>Your AI, on your machine. No cloud required. No data leaves the device.</p>
               </div>
               <div className="orbit-card">
-                <span className="mini-tag gold">Financial Independence</span>
-                <h4>EqualiF.I. Planner</h4>
-                <p>Equalibra Financial Independence planning with balance at the center.</p>
-              </div>
-              <div className="orbit-card">
-                <span className="mini-tag green">AI Ops Companion</span>
-                <h4>AZxAI Navigator</h4>
-                <p>Map your AI operations, see which vendor changes touch them, and act before they bite.</p>
-              </div>
-              <div className="orbit-card">
-                <span className="mini-tag violet">Shipped Proof</span>
-                <h4>Quadra-M.I.N.D. Sight</h4>
-                <p>Metacognitive training app. Live on the web, in Play review.</p>
+                <span className="mini-tag violet">Official LLC site</span>
+                <h4>axiomzetainnovations.com</h4>
+                <p>Entity, verification, policies, and enterprise contact live on the no-hyphen site.</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── START HERE / ROUTER ─────────────────────────────── */}
+      <section className="section" id="start-here">
+        <div className="container">
+          <div className="section-head">
+            <p className="kicker">Start here</p>
+            <h2>Pick the lane that matches the job</h2>
+            <p className="sub">
+              Axiom Zeta is the hub. Each product has one home, one buyer, and one next step.
+            </p>
+          </div>
+          <div className="grid-3">
+            <article className="card">
+              <span className="status live">SMB operators — Live</span>
+              <h3>“My AI vendors keep changing.”</h3>
+              <p>Go to AI Change Radar for the weekly brief, sample, pricing, and onboarding. Navigator is the premium action layer once the brief lands.</p>
+              <a href={RADAR_URL} target="_blank" rel="noreferrer" className="card-cta">Go to aichangeradar.com →</a>
+            </article>
+            <article className="card">
+              <span className="status dev">AI builders — MVP</span>
+              <h3>“My LLM/RAG system drifts.”</h3>
+              <p>Start with Sentinel. Solo is for individual builders, Teams for shared RAG services, and Sovereign for evaluated enterprise/sovereign deployments.</p>
+              <Link href="#sentinel" className="card-cta">Explore Sentinel ↓</Link>
+            </article>
+            <article className="card">
+              <span className="status dev">Sovereign / official</span>
+              <h3>“I need local control or the LLC.”</h3>
+              <p>Quadra-Seer is the sovereign local-AI lab. Entity verification, policies, app support, and enterprise contact live on the official no-hyphen site.</p>
+              <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer" className="card-cta">Visit axiomzetainnovations.com →</a>
+            </article>
           </div>
         </div>
       </section>
@@ -87,7 +119,7 @@ export default function HomePage() {
       <section className="section alt" id="platform">
         <div className="container">
           <div className="section-head">
-            <p className="kicker">Advertising Portal — Featured Platform</p>
+            <p className="kicker">Flagship — canonical home: aichangeradar.com</p>
             <h2>AI Change Radar: never be blindsided by your own AI stack again</h2>
             <p className="sub">
               Your vendors ship changes every week — retired models, quiet pricing moves,
@@ -183,10 +215,10 @@ export default function HomePage() {
         <div className="container">
           <div className="section-head">
             <p className="kicker gold">The Axiom Zeta Suite</p>
-            <h2>Five systems. One philosophy: you stay in control.</h2>
+            <h2>Systems by job, not a pile of products.</h2>
             <p className="sub">
-              Each product is built to give an operator leverage without surrendering
-              ownership — of data, of decisions, or of the roadmap.
+              Radar sells on its own site. Navigator deepens Radar. Sentinel serves AI builders.
+              Quadra-Seer is the sovereign lab. Everything else is proof, not another front door.
             </p>
           </div>
 
@@ -213,9 +245,30 @@ export default function HomePage() {
             </article>
 
             <article className="card">
+              <div className="card-icon" aria-hidden="true">🛡️</div>
+              <div style={{ marginTop: 16 }}>
+                <span className="status dev">MVP — AI builders</span>
+              </div>
+              <h3>Axiom Zeta Sentinel</h3>
+              <p>
+                Drift prevention for LLM &amp; RAG systems. Sentinel watches metric
+                streams against a learned baseline and returns a bounded action:
+                pass, clamp, retry, fallback, or human review.
+              </p>
+              <ul>
+                <li>Solo for individual builders</li>
+                <li>Teams for shared RAG services</li>
+                <li>Sovereign preview for evaluated deployments</li>
+              </ul>
+              <Link href="#sentinel" className="card-cta">
+                Explore Sentinel ↓
+              </Link>
+            </article>
+
+            <article className="card">
               <div className="card-icon" aria-hidden="true">👁️</div>
               <div style={{ marginTop: 16 }}>
-                <span className="status dev">In Development — Sovereign</span>
+                <span className="status dev">In Development — Sovereign lab</span>
               </div>
               <h3>Quadra-Seer Sovereign</h3>
               <p>
@@ -234,34 +287,13 @@ export default function HomePage() {
             </article>
 
             <article className="card">
-              <div className="card-icon" aria-hidden="true">⚖️</div>
-              <div style={{ marginTop: 16 }}>
-                <span className="status live">Live — equalifi-planner.vercel.app</span>
-              </div>
-              <h3>EqualiF.I. Planner</h3>
-              <p>
-                The <strong style={{ color: "var(--text)" }}>Equalibra Financial Independence Planner</strong> —
-                a calm, balance-first path to financial independence. Model scenarios,
-                see your independence timeline, and adjust without spreadsheet chaos.
-              </p>
-              <ul>
-                <li>Independence timeline &amp; scenario modeling</li>
-                <li>Equalibra balance engine — income, spend, and freedom in equilibrium</li>
-                <li>Private by default; your finances stay yours</li>
-              </ul>
-              <a href="https://equalifi-planner.vercel.app" target="_blank" rel="noreferrer" className="card-cta">
-                Find Your Financial Equlibra →
-              </a>
-            </article>
-
-            <article className="card">
               <div className="card-icon" aria-hidden="true">🎯</div>
               <div style={{ marginTop: 16 }}>
                 <span className="status live">Live — azxai-navigator.onrender.com</span>
               </div>
               <h3>AZxAI Navigator</h3>
               <p>
-                The companion platform to AI Change Radar. Navigator maps your AI
+                The premium action layer for AI Change Radar. Navigator maps your AI
                 operations, matches each vendor change to the workflows it actually
                 touches, and turns act-now alerts into approved, tracked action —
                 $74.99/mo.
@@ -275,6 +307,19 @@ export default function HomePage() {
                 Open AZxAI Navigator →
               </a>
             </article>
+          </div>
+
+          <div className="card" style={{ marginTop: 22 }}>
+            <span className="status live">Shipped proof — not front doors</span>
+            <p style={{ marginTop: 14 }}>
+              <strong style={{ color: "var(--text)" }}>Quadra-M.I.N.D. Sight</strong> is live on the web and in Play review.{" "}
+              <strong style={{ color: "var(--text)" }}>EqualiF.I. Planner</strong> is live as a focused financial-independence tool.
+              They prove the studio ships; they do not split the front door.
+            </p>
+            <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 16 }}>
+              <a href="https://quadra-mind-sight.onrender.com" target="_blank" rel="noreferrer" className="card-cta">Quadra-M.I.N.D. Sight ↗</a>
+              <a href="https://equalifi-planner.vercel.app" target="_blank" rel="noreferrer" className="card-cta">EqualiF.I. Planner ↗</a>
+            </div>
           </div>
 
         </div>
@@ -321,7 +366,7 @@ export default function HomePage() {
               <a href={process.env.NEXT_PUBLIC_SENTINEL_SOVEREIGN_CHECKOUT_URL || "https://buy.stripe.com/8x24gB64o2kDe2O3SN18c0c"} className="card-cta">Subscribe — $119.99/mo →</a>
             </article>
           </div>
-          <p style={{color:"var(--muted-2)",fontSize:".9rem",marginTop:16}}>Sentinel gateways launch from Vercel-connected repos and are billed via Stripe. After checkout, Stripe webhooks provision your workspace and API key automatically — check the gateway GUI at <code>/ui</code> to retrieve it (shown once).</p>
+          <p style={{color:"var(--muted-2)",fontSize:".9rem",marginTop:16}}>Sentinel is the developer-reliability lane on this hub. Billing is via Stripe; after checkout, the gateway GUI is where your workspace/API key is retrieved. For evaluated Sovereign or enterprise deployments, start at the official LLC site: <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>axiomzetainnovations.com</a>.</p>
         </div>
       </section>
 
@@ -433,7 +478,8 @@ export default function HomePage() {
               <li><span><strong style={{ color: "var(--text)" }}>Entity:</strong> Axiom Zeta Innovations LLC (Texas)</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Flagship:</strong> AI Change Radar — live at aichangeradar.com</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Sovereign line:</strong> Quadra-Seer Sovereign (local-first chatbot)</span></li>
-              <li><span><strong style={{ color: "var(--text)" }}>Next:</strong> EqualiF.I. Planner · AZxAI Navigator (live)</span></li>
+              <li><span><strong style={{ color: "var(--text)" }}>Canonical product home:</strong> AI Change Radar at aichangeradar.com</span></li>
+              <li><span><strong style={{ color: "var(--text)" }}>Official LLC site:</strong> axiomzetainnovations.com for entity, verification, and contact</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Shipped proof:</strong> Quadra-M.I.N.D. Sight (web live, Play in review)</span></li>
             </ul>
           </div>

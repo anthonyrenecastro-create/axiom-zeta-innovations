@@ -5,12 +5,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Axiom Zeta Innovations — Sovereign AI Systems",
   description:
-    "Axiom Zeta Innovations builds sovereign, operator-owned AI: AI Change Radar for SMB vendor intelligence, Quadra-Seer Sovereign local-first chatbot, EqualiF.I. Planner, and AZxAI Navigator.",
+    "Axiom Zeta Innovations is the product hub for operator-owned AI: AI Change Radar (canonical home aichangeradar.com), AZxAI Navigator, Sentinel for LLM/RAG reliability, and Quadra-Seer sovereign local AI.",
   metadataBase: new URL("https://axiomzeta-innovations.com"),
   openGraph: {
     title: "Axiom Zeta Innovations — Sovereign AI Systems",
     description:
-      "Intelligence you own. AI Change Radar, Quadra-Seer Sovereign, EqualiF.I. Planner, and AZxAI Navigator.",
+      "Intelligence you own. Start with AI Change Radar, Sentinel for LLM/RAG reliability, or Quadra-Seer sovereign local AI.",
     type: "website",
   },
 };
@@ -33,7 +33,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </Link>
               <nav className="topnav" aria-label="Main">
                 <Link href="/#platform">AI Change Radar</Link>
-                <Link href="/#products">Products</Link>
+                <Link href="/#start-here">Start Here</Link>
+                <Link href="/#products">Systems</Link>
                 <Link href="/#sentinel">Sentinel</Link>
                 <Link href="/#quadra-seer">Quadra-Seer</Link>
                 <Link href="/#principles">Principles</Link>
@@ -73,21 +74,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <h4>Products</h4>
                   <div className="footer-links">
                     <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">AI Change Radar ↗</a>
+                    <a href="https://azxai-navigator.onrender.com" target="_blank" rel="noreferrer">AZxAI Navigator ↗</a>
                     <Link href="/#quadra-seer">Quadra-Seer Sovereign</Link>
                     <Link href="/sentinel-solo">Sentinel Solo</Link>
                     <Link href="/sentinel-teams">Sentinel Teams</Link>
                     <Link href="/sentinel-sovereign">Sentinel Sovereign</Link>
-                    <Link href="/#products">EqualiF.I. Planner</Link>
-                    <Link href="/#products">AZxAI Navigator</Link>
+                    <a href="https://equalifi-planner.vercel.app" target="_blank" rel="noreferrer">EqualiF.I. Planner ↗</a>
                     <a href="https://quadra-mind-sight.onrender.com" target="_blank" rel="noreferrer">Quadra-M.I.N.D. Sight ↗</a>
                   </div>
                 </div>
                 <div>
                   <h4>Company</h4>
                   <div className="footer-links">
-                    <Link href="/#platform">Advertising Portal</Link>
+                    <Link href="/#platform">Flagship: AI Change Radar</Link>
+                    <Link href="/#start-here">Start Here</Link>
                     <Link href="/#principles">Our Principles</Link>
                     <Link href="/#about">About Axiom Zeta</Link>
+                    <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer">Official LLC site ↗</a>
                     <a href="https://www.aichangeradar.com/sample" target="_blank" rel="noreferrer">Sample Brief ↗</a>
                     <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">aichangeradar.com ↗</a>
                   </div>
