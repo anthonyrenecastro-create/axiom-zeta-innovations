@@ -10,9 +10,9 @@ export default function HomePage() {
       <section className="hero">
         <div className="container hero-grid">
           <div>
-            <p className="eyebrow">Axiom Zeta Innovations LLC — Sovereign AI Systems</p>
+            <p className="eyebrow">Axiom Zeta Innovations — Product Hub</p>
             <h1>
-              Intelligence you own. <span className="hl">Systems that respect it.</span>
+              Pick your lane. <span className="hl">Own the system.</span>
             </h1>
             <p className="lede">
               Axiom Zeta Innovations builds operator-owned AI for people who refuse to rent
@@ -28,10 +28,10 @@ export default function HomePage() {
                 Choose your path
               </Link>
             </div>
-            <div className="hero-proof" aria-label="Principles">
-              <span>Local-first where it matters</span>
-              <span>Privacy by architecture</span>
-              <span>No vendor lock-in</span>
+            <div className="hero-proof" aria-label="Axiom Zeta lanes">
+              <span>SMB intelligence → Radar</span>
+              <span>AI builders → Sentinel</span>
+              <span>Sovereign → Quadra-Seer</span>
             </div>
           </div>
 
