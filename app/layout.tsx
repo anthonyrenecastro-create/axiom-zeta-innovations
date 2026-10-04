@@ -3,14 +3,14 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Axiom Zeta Innovations — Sovereign AI Systems",
+  title: "Axiom Zeta Sentinel — Drift prevention for LLM & RAG systems",
   description:
-    "Axiom Zeta Innovations is the product hub for operator-owned AI: AI Change Radar (canonical home aichangeradar.com), AZxAI Navigator, Sentinel for LLM/RAG reliability, and Quadra-Seer sovereign local AI.",
+    "Axiom Zeta Sentinel watches your LLM and RAG systems against a learned baseline and returns a bounded action: pass, clamp, retry, fallback, or human review. Solo, Teams, and Sovereign tiers with Stripe billing.",
   metadataBase: new URL("https://axiomzeta-innovations.com"),
   openGraph: {
-    title: "Axiom Zeta Innovations — Sovereign AI Systems",
+    title: "Axiom Zeta Sentinel — Drift prevention for LLM & RAG systems",
     description:
-      "Intelligence you own. Start with AI Change Radar, Sentinel for LLM/RAG reliability, or Quadra-Seer sovereign local AI.",
+      "Drift prevention for LLM & RAG systems. Solo $59.99, Teams $89.99, Sovereign $119.99/mo. Stripe billing, key auto-provisioned.",
     type: "website",
   },
 };
@@ -22,25 +22,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="shell">
           <header className="topbar">
             <div className="container topbar-row">
-              <Link href="/" className="brand" aria-label="Axiom Zeta Innovations home">
+              <Link href="/" className="brand" aria-label="Axiom Zeta Sentinel home">
                 <span className="brand-mark" aria-hidden="true">AZ</span>
                 <span className="brand-text">
                   <span className="brand-name">
-                    Axiom Zeta <em>Innovations</em>
+                    Axiom Zeta <em>Sentinel</em>
                   </span>
-                  <span className="brand-sub">Product Hub — Pick Your Lane</span>
+                  <span className="brand-sub">LLM / RAG reliability</span>
                 </span>
               </Link>
               <nav className="topnav" aria-label="Main">
-                <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">Radar</a>
                 <Link href="/#sentinel">Sentinel</Link>
-                <a href="https://azxai-navigator.onrender.com" target="_blank" rel="noreferrer">Navigator</a>
-                <Link href="/#start-here">Start Here</Link>
+                <Link href="/#how">How it works</Link>
+                <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">AI Change Radar</a>
                 <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer">Official LLC</a>
               </nav>
-              <a href="https://www.aichangeradar.com/onboarding" target="_blank" rel="noreferrer" className="cta-button">
-                Start with Radar →
-              </a>
+              <Link href="/#sentinel" className="cta-button">
+                Get Sentinel →
+              </Link>
             </div>
           </header>
           <main>{children}</main>
@@ -48,13 +47,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="container">
               <div className="footer-grid">
                 <div>
-                  <Link href="/" className="brand" aria-label="Axiom Zeta Innovations home">
+                  <Link href="/" className="brand" aria-label="Axiom Zeta Sentinel home">
                     <span className="brand-mark" aria-hidden="true">AZ</span>
                     <span className="brand-text">
                       <span className="brand-name">
-                        Axiom Zeta <em>Innovations</em>
+                        Axiom Zeta <em>Sentinel</em>
                       </span>
-                      <span className="brand-sub">Sovereign AI Systems</span>
+                      <span className="brand-sub">Drift prevention for LLM &amp; RAG</span>
                     </span>
                   </Link>
                   <p style={{ color: "var(--muted)", maxWidth: 420, marginTop: 18 }}>
@@ -63,40 +62,36 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   </p>
                   <p style={{ color: "var(--muted)", marginTop: 14, fontSize: ".94rem" }}>
                     Contact:{" "}
-                    <a href="mailto:anthony.castro@axiomzetainnovations.org" style={{ color: "var(--accent)", fontWeight: 600 }}>
-                      anthony.castro@axiomzetainnovations.org
+                    <a href="mailto:anthony.castro@axiomzetainnovations.com" style={{ color: "var(--accent)", fontWeight: 600 }}>
+                      anthony.castro@axiomzetainnovations.com
                     </a>
                   </p>
                 </div>
                 <div>
-                  <h4>Products</h4>
+                  <h4>Sentinel</h4>
                   <div className="footer-links">
-                    <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">AI Change Radar ↗</a>
-                    <a href="https://azxai-navigator.onrender.com" target="_blank" rel="noreferrer">AZxAI Navigator ↗</a>
-                    <Link href="/#quadra-seer">Quadra-Seer Sovereign</Link>
                     <Link href="/sentinel-solo">Sentinel Solo</Link>
                     <Link href="/sentinel-teams">Sentinel Teams</Link>
                     <Link href="/sentinel-sovereign">Sentinel Sovereign</Link>
-                    <a href="https://equalifi-planner.vercel.app" target="_blank" rel="noreferrer">EqualiF.I. Planner ↗</a>
-                    <a href="https://quadra-mind-sight.onrender.com" target="_blank" rel="noreferrer">Quadra-M.I.N.D. Sight ↗</a>
+                    <Link href="/#how">How it works</Link>
+                  </div>
+                  <h4 style={{ marginTop: 22, fontSize: ".85rem", color: "var(--muted-2)" }}>Also from Axiom Zeta</h4>
+                  <div className="footer-links">
+                    <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">AI Change Radar ↗</a>
                   </div>
                 </div>
                 <div>
                   <h4>Company</h4>
                   <div className="footer-links">
-                    <Link href="/#platform">Flagship: AI Change Radar</Link>
-                    <Link href="/#start-here">Start Here</Link>
                     <Link href="/#principles">Our Principles</Link>
                     <Link href="/#about">About Axiom Zeta</Link>
                     <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer">Official LLC site ↗</a>
-                    <a href="https://www.aichangeradar.com/sample" target="_blank" rel="noreferrer">Sample Brief ↗</a>
-                    <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">aichangeradar.com ↗</a>
                   </div>
                 </div>
               </div>
               <div className="footer-bottom">
                 <p>© {new Date().getFullYear()} Axiom Zeta Innovations LLC. All rights reserved.</p>
-                <p>Pick your lane. Own the system.</p>
+                <p>Catch drift before your users do.</p>
               </div>
             </div>
           </footer>
