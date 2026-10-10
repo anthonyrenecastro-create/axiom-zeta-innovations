@@ -335,19 +335,6 @@ export default function HomePage() {
             </article>
           </div>
 
-          <div className="card" style={{ marginTop: 22 }}>
-            <span className="status live">Shipped proof — not front doors</span>
-            <p style={{ marginTop: 14 }}>
-              <strong style={{ color: "var(--text)" }}>Quadra-M.I.N.D. Sight</strong> is live on the web and in Play review.{" "}
-              <strong style={{ color: "var(--text)" }}>EqualiF.I. Planner</strong> is live as a focused financial-independence tool.
-              They prove the studio ships; they do not split the front door.
-            </p>
-            <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 16 }}>
-              <a href="https://quadra-mind-sight.onrender.com" target="_blank" rel="noreferrer" className="card-cta">Quadra-M.I.N.D. Sight ↗</a>
-              <a href="https://equalifi-planner.vercel.app" target="_blank" rel="noreferrer" className="card-cta">EqualiF.I. Planner ↗</a>
-            </div>
-          </div>
-
         </div>
       </section>
 
@@ -518,7 +505,6 @@ export default function HomePage() {
               <li><span><strong style={{ color: "var(--text)" }}>Sovereign line:</strong> Quadra-Seer Sovereign (local-first chatbot)</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Canonical product home:</strong> AI Change Radar at aichangeradar.com</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Official LLC site:</strong> axiomzetainnovations.com for entity, verification, and contact</span></li>
-              <li><span><strong style={{ color: "var(--text)" }}>Shipped proof:</strong> Quadra-M.I.N.D. Sight (web live, Play in review)</span></li>
             </ul>
           </div>
         </div>
