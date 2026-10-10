@@ -12,6 +12,14 @@ const DONATE_TIERS = [
 ];
 // Live Calendly consultation scheduling link (connected 2026-10-10)
 const CONSULT_URL = "https://calendly.com/anthony-castro-axiomzetainnovations-hwr2/30min";
+// Service offerings — Stripe payment links (created 2026-10-10)
+const SERVICES = {
+  briefings: "https://buy.stripe.com/eVqdRbeAUf7p2k63SN18c0m",    // Vendor Intelligence Briefings — $199/mo recurring
+  advisory: "https://buy.stripe.com/fZu14pcsM8J17Eq2OJ18c0n",     // AI Adoption Advisory Sprint — $1,500 one-time
+  auditStarter: "https://buy.stripe.com/8x228teAU9N53oa60V18c0o", // AI Reliability Audit — Starter — $499 one-time
+  auditPro: "https://buy.stripe.com/14A4gB0K44sL2k6blf18c0p",     // AI Reliability Audit — Professional — $1,499 one-time
+  deployment: "https://buy.stripe.com/fZu5kF0K4f7p9My89318c0q",   // Private AI Assistant Deployment — $2,500 one-time
+};
 
 export default function HomePage() {
   return (
@@ -345,6 +353,99 @@ export default function HomePage() {
       </section>
 
       
+      {/* ── SERVICES ──────────────────────────────────────────── */}
+      <section className="section alt" id="services">
+        <div className="container">
+          <div className="section-head">
+            <p className="kicker gold">Services</p>
+            <h2>Done-for-you services, on open-source software</h2>
+            <p className="sub">
+              Every Axiom Zeta product is free and open source under AGPL-3.0 — download
+              it, self-host it, no paywall, no license key. These services are for teams
+              that want it implemented, interpreted, and operated for them.
+            </p>
+          </div>
+          <div className="grid-4">
+            <article className="card">
+              <div className="card-icon" aria-hidden="true">📰</div>
+              <div style={{ marginTop: 16 }}>
+                <span className="status live">Monthly retainer</span>
+              </div>
+              <h3>Vendor Intelligence Briefings</h3>
+              <p className="amount" style={{ fontSize: "1.6rem", fontWeight: 700 }}>$199<small> / mo</small></p>
+              <p>
+                The software generates weekly briefs free. This service maps them to your
+                actual stack: curated, interpreted briefings plus a quarterly strategy call
+                on what the changes mean for your business. For SMBs already running on AI tools.
+              </p>
+              <a href={SERVICES.briefings} target="_blank" rel="noreferrer" className="button-gold" style={{ marginTop: 12, display: "inline-block" }}>
+                Subscribe — $199/mo →
+              </a>
+            </article>
+            <article className="card">
+              <div className="card-icon" aria-hidden="true">🧭</div>
+              <div style={{ marginTop: 16 }}>
+                <span className="status live">Project-based</span>
+              </div>
+              <h3>AI Adoption Advisory</h3>
+              <p className="amount" style={{ fontSize: "1.6rem", fontWeight: 700 }}>$1,500<small> one-time</small></p>
+              <p>
+                The action layer on top of Radar&apos;s intelligence. Radar says what changed;
+                this engagement says what to do about it — workflow integration, tool selection,
+                rollout planning. Pairs with Vendor Intelligence Briefings.
+              </p>
+              <a href={SERVICES.advisory} target="_blank" rel="noreferrer" className="button-gold" style={{ marginTop: 12, display: "inline-block" }}>
+                Book advisory sprint →
+              </a>
+            </article>
+            <article className="card">
+              <div className="card-icon" aria-hidden="true">🔍</div>
+              <div style={{ marginTop: 16 }}>
+                <span className="status live">Audit + monitoring</span>
+              </div>
+              <h3>AI Reliability Audits</h3>
+              <p className="amount" style={{ fontSize: "1.6rem", fontWeight: 700 }}>$499 – $1,499</p>
+              <p>
+                We deploy the Sentinel gateway in front of your LLM/RAG system, audit for drift
+                and prompt injection, install guardrails, and monitor ongoing. Starter for indie
+                devs and small shops; Professional for agencies and SMBs; Sovereign for
+                self-hosted / air-gapped enterprise — law, finance, healthcare.
+              </p>
+              <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 12 }}>
+                <a href={SERVICES.auditStarter} target="_blank" rel="noreferrer" className="button-ghost">
+                  Starter $499 →
+                </a>
+                <a href={SERVICES.auditPro} target="_blank" rel="noreferrer" className="button-ghost">
+                  Professional $1,499 →
+                </a>
+              </div>
+              <p style={{ marginTop: 10, fontSize: ".85rem", opacity: 0.75 }}>
+                Sovereign (enterprise): <a href="mailto:anthony.castro@axiomzetainnovations.com?subject=Sentinel%20Sovereign%20audit%20inquiry" style={{ color: "var(--accent)", fontWeight: 600 }}>request a quote →</a>
+              </p>
+            </article>
+            <article className="card">
+              <div className="card-icon" aria-hidden="true">🔒</div>
+              <div style={{ marginTop: 16 }}>
+                <span className="status live">Deployment + care</span>
+              </div>
+              <h3>Private AI Assistant Deployments</h3>
+              <p className="amount" style={{ fontSize: "1.6rem", fontWeight: 700 }}>$2,500<small> one-time</small></p>
+              <p>
+                Self-hosted, Ollama-based AI assistants for organizations that can&apos;t send
+                data to third-party APIs. We deploy, tune, and hand over a system where data
+                never leaves your building. Includes 90-day care; ongoing maintenance plans available.
+              </p>
+              <a href={SERVICES.deployment} target="_blank" rel="noreferrer" className="button-gold" style={{ marginTop: 12, display: "inline-block" }}>
+                Start deployment →
+              </a>
+            </article>
+          </div>
+          <p style={{ color: "var(--muted-2)", fontSize: ".9rem", marginTop: 20, textAlign: "center" }}>
+            Prefer to talk first? <a href={CONSULT_URL} target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>Schedule a consultation →</a>
+          </p>
+        </div>
+      </section>
+
       {/* ── AXIOM ZETA SENTINEL ─────────────────────────────── */}
       <section className="section alt" id="sentinel">
         <div className="container">
