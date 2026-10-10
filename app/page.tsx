@@ -2,8 +2,14 @@ import Link from "next/link";
 
 const RADAR_URL = "https://www.aichangeradar.com";
 const NAVIGATOR_URL = "https://azxai-navigator.onrender.com";
-// Live Stripe donation payment link (created 2026-10-10)
-const DONATE_URL = "https://buy.stripe.com/9B68wR50k2kD5wicpj18c0h";
+// Live Stripe donation payment links (created 2026-10-10)
+const DONATE_TIERS = [
+  { label: "$25", url: "https://buy.stripe.com/9B68wR50k2kD5wicpj18c0h" },
+  { label: "$75", url: "https://buy.stripe.com/7sY5kF9gA8J1f6SgFz18c0i" },
+  { label: "$125", url: "https://buy.stripe.com/5kQ7sNboIbVd1g23SN18c0j" },
+  { label: "$200", url: "https://buy.stripe.com/00w14p0K43oHbUGcpj18c0k" },
+  { label: "Custom", url: "https://buy.stripe.com/bJe00l9gA5wPbUGcpj18c0l" },
+];
 // Live Calendly consultation scheduling link (connected 2026-10-10)
 const CONSULT_URL = "https://calendly.com/anthony-castro-axiomzetainnovations-hwr2/30min";
 
@@ -468,9 +474,16 @@ export default function HomePage() {
               systems — no investors, no ads, no data selling. Every contribution keeps
               the code public and the lights on.
             </p>
-            <a href={DONATE_URL} target="_blank" rel="noreferrer" className="button-gold">
-              Donate →
-            </a>
+            <div style={{ display: "flex", gap: 10, flexWrap: "wrap", justifyContent: "center" }}>
+              {DONATE_TIERS.map((tier) => (
+                <a key={tier.label} href={tier.url} target="_blank" rel="noreferrer" className="button-gold">
+                  {tier.label === "Custom" ? "Custom amount →" : `Donate ${tier.label} →`}
+                </a>
+              ))}
+            </div>
+            <p style={{ marginTop: 12, fontSize: "0.85rem", opacity: 0.7 }}>
+              Custom amount: set the quantity on the checkout page to choose your total (e.g. quantity 50 = $50).
+            </p>
           </div>
         </div>
       </section>
