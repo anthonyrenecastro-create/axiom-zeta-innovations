@@ -29,13 +29,14 @@ export default function HomePage() {
         </div>
         <div className="container hero-grid">
           <div>
-            <p className="eyebrow">Axiom Zeta Innovations — Product Hub</p>
+            <p className="eyebrow">Axiom Zeta Innovations — Open source for profit</p>
             <h1>
-              Pick your lane. <span className="hl">Own the system.</span>
+              Open-source AI. <span className="hl">Own the system.</span>
             </h1>
             <p className="lede">
-              Axiom Zeta Innovations builds operator-owned AI for people who refuse to rent
-              their own judgment. Start with the system built for your job: <strong style={{ color: "var(--text)" }}>AI Change Radar</strong> for
+              Axiom Zeta Innovations is an open source for profit company. Every product
+              below is public code you can read, fork, and self-host — or pay us to run
+              for you. Start with the system built for your job: <strong style={{ color: "var(--text)" }}>AI Change Radar</strong> for
               SMB vendor intelligence, <strong style={{ color: "var(--text)" }}>Sentinel</strong> for LLM/RAG reliability,
               or <strong style={{ color: "var(--text)" }}>Quadra-Seer</strong> for sovereign local AI.
             </p>
@@ -97,6 +98,58 @@ export default function HomePage() {
                 <p>Entity, verification, policies, and enterprise contact live on the no-hyphen site.</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── OPEN SOURCE ─────────────────────────────────────── */}
+      <section className="section alt" id="open-source">
+        <div className="container">
+          <div className="section-head">
+            <p className="kicker gold">Open source for profit</p>
+            <h2>The code is public. The business is honest.</h2>
+            <p className="sub">
+              We&apos;re an open source for profit company. Every Axiom Zeta product is public
+              source you can read, audit, fork, and self-host — and we&apos;re upfront about
+              how we make money doing it.
+            </p>
+          </div>
+          <div className="grid-3">
+            <article className="card">
+              <span className="pillar-num">01 / OPEN BY DEFAULT</span>
+              <h3>Read the code</h3>
+              <p>
+                No black boxes. Every product ships with its source public under an
+                open-source license — audit it, fork it, run it yourself. If Axiom Zeta
+                disappeared tomorrow, your systems keep running.
+              </p>
+            </article>
+            <article className="card">
+              <span className="pillar-num">02 / PAY FOR CONVENIENCE</span>
+              <h3>Never pay for the code</h3>
+              <p>
+                The software is free. We make money from hosted versions, support,
+                premium tiers, consulting, and donations — never for the code itself.
+                You pay us to save you time, not for permission.
+              </p>
+            </article>
+            <article className="card">
+              <span className="pillar-num">03 / SOVEREIGN BY ARCHITECTURE</span>
+              <h3>Your system, your rules</h3>
+              <p>
+                Open source is how sovereignty stays honest. Self-host on your hardware,
+                keep your data on your machine, leave whenever you want. No lock-in is
+                a property of the license, not a promise in the marketing.
+              </p>
+            </article>
+          </div>
+          <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 28, justifyContent: "center" }}>
+            <a href="https://github.com/axiomzeta" target="_blank" rel="noreferrer" className="button-gold">
+              Browse the source →
+            </a>
+            <Link href="#products" className="button-ghost">
+              See the products
+            </Link>
           </div>
         </div>
       </section>
@@ -261,6 +314,9 @@ export default function HomePage() {
               <a href={RADAR_URL} target="_blank" rel="noreferrer" className="card-cta">
                 Visit aichangeradar.com →
               </a>
+              <a href="https://github.com/anthonyrenecastro-create/ai-change-radar" target="_blank" rel="noreferrer" className="card-cta">
+                View source →
+              </a>
             </article>
 
             <article className="card">
@@ -282,6 +338,9 @@ export default function HomePage() {
               <Link href="#sentinel" className="card-cta">
                 Explore Sentinel ↓
               </Link>
+              <a href="https://github.com/anthonyrenecastro-create/axiom-zeta-sentinel-solo" target="_blank" rel="noreferrer" className="card-cta">
+                View source →
+              </a>
             </article>
 
             <article className="card">
@@ -303,6 +362,9 @@ export default function HomePage() {
               <Link href="#quadra-seer" className="card-cta">
                 Inside Quadra-Seer ↓
               </Link>
+              <a href="https://github.com/anthonyrenecastro-create/quadra-seer-mission-executor" target="_blank" rel="noreferrer" className="card-cta">
+                View source →
+              </a>
             </article>
 
             <article className="card">
@@ -324,6 +386,9 @@ export default function HomePage() {
               </ul>
               <a href={NAVIGATOR_URL} target="_blank" rel="noreferrer" className="card-cta">
                 Open AZxAI Navigator →
+              </a>
+              <a href="https://github.com/anthonyrenecastro-create/azxai-navigator" target="_blank" rel="noreferrer" className="card-cta">
+                View source →
               </a>
             </article>
           </div>
@@ -366,6 +431,7 @@ export default function HomePage() {
               <p>For individual builders. One gateway, baseline drift detection, full GUI playground.</p>
               <ul><li>Stabilize / feedback / baseline-reset API</li><li>Drift diagnostics &amp; telemetry</li><li>Stripe checkout — key auto-provisioned</li></ul>
               <Link href="/sentinel-solo" className="card-cta">Sentinel Solo product page →</Link>
+              <a href="https://github.com/anthonyrenecastro-create/axiom-zeta-sentinel-solo" target="_blank" rel="noreferrer" className="card-cta">View source →</a>
               <a href={process.env.NEXT_PUBLIC_SENTINEL_SOLO_CHECKOUT_URL || "https://buy.stripe.com/dRm6oJ8cw6AT3oa1KF18c0a"} className="card-cta">Subscribe — $59.99/mo →</a>
             </article>
             <article className="card">
@@ -374,6 +440,7 @@ export default function HomePage() {
               <p>For teams running RAG in production. Orgs, workspaces, roles, and shared API keys.</p>
               <ul><li>Everything in Solo</li><li>Workspaces, members &amp; audit</li><li>Workspace analytics</li></ul>
               <Link href="/sentinel-teams" className="card-cta">Sentinel Teams product page →</Link>
+              <a href="https://github.com/anthonyrenecastro-create/axiom-zeta-sentinel-teams" target="_blank" rel="noreferrer" className="card-cta">View source →</a>
               <a href={process.env.NEXT_PUBLIC_SENTINEL_TEAMS_CHECKOUT_URL || "https://buy.stripe.com/3cI6oJ0K48J12k6ahb18c0b"} className="card-cta">Subscribe — $89.99/mo →</a>
             </article>
             <article className="card">
@@ -382,6 +449,7 @@ export default function HomePage() {
               <p>Enterprise preview. OIDC, policy engine, HA state and operator controls, config-gated in MVP.</p>
               <ul><li>Everything in Teams</li><li>OIDC / policy / airgap controls</li><li>Annual invoicing on request</li></ul>
               <Link href="/sentinel-sovereign" className="card-cta">Sentinel Sovereign product page →</Link>
+              <a href="https://github.com/anthonyrenecastro-create/axiom-zeta-sentinel-sovereign" target="_blank" rel="noreferrer" className="card-cta">View source →</a>
               <a href={process.env.NEXT_PUBLIC_SENTINEL_SOVEREIGN_CHECKOUT_URL || "https://buy.stripe.com/8x24gB64o2kDe2O3SN18c0c"} className="card-cta">Subscribe — $119.99/mo →</a>
             </article>
           </div>
