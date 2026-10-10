@@ -16,8 +16,8 @@ export default function Page() {
           <div className="price-row" style={{ marginTop: 20 }}>
             <div className="price-mini featured">
               <h4>Sentinel Teams</h4>
-              <p className="amount">$89.99<small> / mo</small></p>
-              <p>Billed monthly via Stripe. Cancel anytime. API key auto-provisioned after checkout.</p>
+              <p className="amount">Open source</p>
+              <p>AGPL-3.0 licensed. No paywall — self-host the gateway and set your own API key.</p>
             </div>
           </div>
           <ul className="ticks">
@@ -25,15 +25,15 @@ export default function Page() {
             <li><span>Organizations, workspaces, and role-based access</span></li>
             <li><span>Workspace API keys shown once at creation</span></li>
             <li><span>Audit log and workspace analytics</span></li>
-            <li><span>Stripe billing per workspace with auto-provisioned keys</span></li>
+            <li><span>AGPL-3.0 — free to run, modify, and share</span></li>
           </ul>
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 28 }}>
-            <a href="https://buy.stripe.com/3cI6oJ0K48J12k6ahb18c0b" target="_blank" rel="noreferrer" className="button-gold">Subscribe - $89.99/mo</a>
+            <a href="https://github.com/anthonyrenecastro-create/axiom-zeta-sentinel-teams" target="_blank" rel="noreferrer" className="button-gold">View on GitHub</a>
             <a href="https://axiom-zeta-sentinel-teams.onrender.com" target="_blank" rel="noreferrer" className="button-primary">Open the live gateway GUI</a>
             <Link href="/#sentinel" className="button-ghost">Compare all Sentinel tiers</Link>
           </div>
           <p style={{ color: "var(--muted-2)", fontSize: ".9rem", marginTop: 16 }}>
-            Gateway: <a href="https://axiom-zeta-sentinel-teams.onrender.com" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>axiom-zeta-sentinel-teams.onrender.com</a> After Stripe checkout, your API key is provisioned automatically. Retrieve it once in the gateway GUI under Billing.
+            Gateway: <a href="https://axiom-zeta-sentinel-teams.onrender.com" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>axiom-zeta-sentinel-teams.onrender.com</a> Set GATEWAY_API_KEY when you deploy; the GUI playground is included.
           </p>
         </div>
       </div>
