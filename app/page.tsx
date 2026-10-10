@@ -4,8 +4,8 @@ const RADAR_URL = "https://www.aichangeradar.com";
 const NAVIGATOR_URL = "https://azxai-navigator.onrender.com";
 // Live Stripe donation payment link (created 2026-10-10)
 const DONATE_URL = "https://buy.stripe.com/9B68wR50k2kD5wicpj18c0h";
-// TODO: replace with the live Calendly scheduling link once connected
-const CONSULT_URL = "https://calendly.com/axiom-zeta/consultation";
+// Live Calendly consultation scheduling link (connected 2026-10-10)
+const CONSULT_URL = "https://calendly.com/anthony-castro-axiomzetainnovations-hwr2/30min";
 
 export default function HomePage() {
   return (
