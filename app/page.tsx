@@ -2,6 +2,10 @@ import Link from "next/link";
 
 const RADAR_URL = "https://www.aichangeradar.com";
 const NAVIGATOR_URL = "https://azxai-navigator.onrender.com";
+// TODO: replace with the live Stripe donation payment link once created
+const DONATE_URL = "https://buy.stripe.com/donate-axiom-zeta";
+// TODO: replace with the live Calendly scheduling link once connected
+const CONSULT_URL = "https://calendly.com/axiom-zeta/consultation";
 
 export default function HomePage() {
   return (
@@ -466,6 +470,18 @@ export default function HomePage() {
               </p>
             </article>
           </div>
+          <div className="card" style={{ marginTop: 28, textAlign: "center" }}>
+            <span className="mini-tag gold">Support the work</span>
+            <h3 style={{ margin: "12px 0 8px" }}>Fund independent, open-source AI</h3>
+            <p style={{ maxWidth: 560, margin: "0 auto 18px" }}>
+              Donations go directly to building and maintaining Axiom Zeta&apos;s open-source
+              systems — no investors, no ads, no data selling. Every contribution keeps
+              the code public and the lights on.
+            </p>
+            <a href={DONATE_URL} target="_blank" rel="noreferrer" className="button-gold">
+              Donate →
+            </a>
+          </div>
         </div>
       </section>
 
@@ -501,6 +517,46 @@ export default function HomePage() {
               <li><span><strong style={{ color: "var(--text)" }}>Official LLC site:</strong> axiomzetainnovations.com for entity, verification, and contact</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Shipped proof:</strong> Quadra-M.I.N.D. Sight (web live, Play in review)</span></li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* ── CONSULTING ──────────────────────────────────────── */}
+      <section className="section" id="consulting">
+        <div className="container">
+          <div className="section-head">
+            <p className="kicker gold">Consulting</p>
+            <h2>Work with the team that builds it</h2>
+            <p className="sub">
+              We help teams put open-source AI to work: architecture reviews, custom
+              deployments, sovereign infrastructure, and hands-on guidance from the people
+              who wrote the code. Book a consultation and we&apos;ll find the right engagement.
+            </p>
+          </div>
+          <div className="grid-3">
+            <article className="card">
+              <span className="mini-tag teal">For builders</span>
+              <h3>Technical consultation</h3>
+              <p>Architecture reviews, deployment planning, and integration guidance for teams adopting Axiom Zeta systems.</p>
+            </article>
+            <article className="card">
+              <span className="mini-tag gold">For operators</span>
+              <h3>Sovereign infrastructure</h3>
+              <p>Self-hosted and air-gapped deployments, data-sovereignty reviews, and operator training for your team.</p>
+            </article>
+            <article className="card">
+              <span className="mini-tag green">For organizations</span>
+              <h3>Custom engagements</h3>
+              <p>Scoped projects, dedicated support agreements, and long-term partnerships built around your roadmap.</p>
+            </article>
+          </div>
+          <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 28, justifyContent: "center" }}>
+            <a href={CONSULT_URL} target="_blank" rel="noreferrer" className="button-gold">
+              Schedule a consultation →
+            </a>
+            <a href="mailto:anthony.castro@axiomzetainnovations.com?subject=Consulting%20inquiry" className="button-ghost">
+              Email us instead
+            </a>
           </div>
         </div>
       </section>

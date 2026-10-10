@@ -33,10 +33,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </Link>
               <nav className="topnav" aria-label="Main">
                 <Link href="/#sentinel">Sentinel</Link>
-                <Link href="/#open-source">Open Source</Link>
+                <Link href="/#consulting">Consulting</Link>
                 <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">AI Change Radar</a>
-                <a href="https://github.com/axiomzeta" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://github.com/Axiom-Zeta-Innovations-LLC" target="_blank" rel="noreferrer">GitHub</a>
                 <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer">Official LLC</a>
+                <Link href="/#principles">Donate</Link>
               </nav>
               <Link href="/#sentinel" className="cta-button">
                 Get Sentinel →
@@ -88,13 +89,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <Link href="/#principles">Our Principles</Link>
                     <Link href="/#open-source">Open Source</Link>
                     <Link href="/#about">About Axiom Zeta</Link>
-                    <a href="https://github.com/axiomzeta" target="_blank" rel="noreferrer">GitHub ↗</a>
+                    <a href="https://github.com/Axiom-Zeta-Innovations-LLC" target="_blank" rel="noreferrer">GitHub ↗</a>
                     <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer">Official LLC site ↗</a>
                   </div>
                 </div>
               </div>
               <div className="footer-bottom">
-                <p>© {new Date().getFullYear()} Axiom Zeta Innovations LLC. Open source — code is public under open-source licenses. <a href="https://github.com/axiomzeta" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>github.com/axiomzeta</a></p>
+                <p>© {new Date().getFullYear()} Axiom Zeta Innovations LLC. Open source — code is public under open-source licenses. <a href="https://github.com/Axiom-Zeta-Innovations-LLC" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>github.com/Axiom-Zeta-Innovations-LLC</a></p>
                 <p>Catch drift before your users do.</p>
               </div>
             </div>
