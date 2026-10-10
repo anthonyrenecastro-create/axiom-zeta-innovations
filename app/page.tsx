@@ -329,6 +329,9 @@ export default function HomePage() {
               <a href={NAVIGATOR_URL} target="_blank" rel="noreferrer" className="card-cta">
                 Open AZxAI Navigator →
               </a>
+              <a href="https://github.com/Axiom-Zeta-Innovations-LLC/azxai-navigator" target="_blank" rel="noreferrer" className="card-cta" style={{ marginLeft: 12 }}>
+                View source →
+              </a>
             </article>
           </div>
 
