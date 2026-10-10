@@ -151,20 +151,20 @@ export default function HomePage() {
 
           <div className="portal-grid">
             <div className="portal-copy">
-              <div className="price-row" aria-label="AI Change Radar pricing">
+              <div className="price-row" aria-label="AI Change Radar plans">
                 <div className="price-mini">
                   <h4>Radar 5</h4>
-                  <p className="amount">$29<small> / mo</small></p>
+                  <p className="amount">Free</p>
                   <p>Track up to 5 AI vendors. Perfect for a focused stack.</p>
                 </div>
                 <div className="price-mini featured">
                   <h4>Radar 15</h4>
-                  <p className="amount">$79<small> / mo</small></p>
+                  <p className="amount">Free</p>
                   <p>Track up to 15 vendors. Most SMBs start here.</p>
                 </div>
                 <div className="price-mini">
                   <h4>Unlimited</h4>
-                  <p className="amount">$199<small> / mo</small></p>
+                  <p className="amount">Free</p>
                   <p>Every vendor you run. Full-coverage radar.</p>
                 </div>
               </div>
@@ -256,7 +256,7 @@ export default function HomePage() {
               <ul>
                 <li>Product, pricing, security &amp; policy change monitoring</li>
                 <li>Severity-ranked briefs with sources and next steps</li>
-                <li>Priced by stack size — Radar 5 / 15 / Unlimited</li>
+                <li>Free plans by stack size — Radar 5 / 15 / Unlimited</li>
               </ul>
               <a href={RADAR_URL} target="_blank" rel="noreferrer" className="card-cta">
                 Visit aichangeradar.com →
@@ -315,7 +315,7 @@ export default function HomePage() {
                 The premium action layer for AI Change Radar. Navigator maps your AI
                 operations, matches each vendor change to the workflows it actually
                 touches, and turns act-now alerts into approved, tracked action —
-                $74.99/mo.
+                free.
               </p>
               <ul>
                 <li>Exposure matching: which of your workflows each change hits</li>
