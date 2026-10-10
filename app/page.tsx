@@ -366,7 +366,7 @@ export default function HomePage() {
               <p>For individual builders. One gateway, baseline drift detection, full GUI playground.</p>
               <ul><li>Stabilize / feedback / baseline-reset API</li><li>Drift diagnostics &amp; telemetry</li><li>AGPL-3.0 open source — self-host, no paywall</li></ul>
               <Link href="/sentinel-solo" className="card-cta">Sentinel Solo product page →</Link>
-              <a href="https://github.com/anthonyrenecastro-create/axiom-zeta-sentinel-solo" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
+              <a href="https://github.com/Axiom-Zeta-Innovations-LLC/axiom-zeta-sentinel-solo" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
             </article>
             <article className="card">
               <span className="status live">Live — Teams</span>
@@ -374,7 +374,7 @@ export default function HomePage() {
               <p>For teams running RAG in production. Orgs, workspaces, roles, and shared API keys.</p>
               <ul><li>Everything in Solo</li><li>Workspaces, members &amp; audit</li><li>Workspace analytics</li></ul>
               <Link href="/sentinel-teams" className="card-cta">Sentinel Teams product page →</Link>
-              <a href="https://github.com/anthonyrenecastro-create/axiom-zeta-sentinel-teams" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
+              <a href="https://github.com/Axiom-Zeta-Innovations-LLC/axiom-zeta-sentinel-teams" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
             </article>
             <article className="card">
               <span className="status dev">MVP Preview — Sovereign</span>
@@ -382,7 +382,7 @@ export default function HomePage() {
               <p>Enterprise preview. OIDC, policy engine, HA state and operator controls, config-gated in MVP.</p>
               <ul><li>Everything in Teams</li><li>OIDC / policy / airgap controls</li><li>Annual invoicing on request</li></ul>
               <Link href="/sentinel-sovereign" className="card-cta">Sentinel Sovereign product page →</Link>
-              <a href="https://github.com/anthonyrenecastro-create/axiom-zeta-sentinel-sovereign" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
+              <a href="https://github.com/Axiom-Zeta-Innovations-LLC/axiom-zeta-sentinel-sovereign" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
             </article>
           </div>
           <p style={{color:"var(--muted-2)",fontSize:".9rem",marginTop:16}}>Sentinel is the developer-reliability lane on this hub. All three tiers are free and open source under AGPL-3.0 — run the gateway yourself with your own API key. For evaluated Sovereign or enterprise deployments, start at the official LLC site: <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>axiomzetainnovations.com</a>.</p>
