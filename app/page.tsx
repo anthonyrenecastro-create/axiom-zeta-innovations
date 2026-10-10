@@ -144,7 +144,7 @@ export default function HomePage() {
             </article>
             <article className="card">
               <span className="status dev">Sovereign / official</span>
-              <h3>“I need local control or the LLC.”</h3>
+              <h3>“I need local control.”</h3>
               <p>Quadra-Seer is the sovereign local-AI lab. Entity verification, policies, app support, and enterprise contact live on the official no-hyphen site.</p>
               <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer" className="card-cta">Visit axiomzetainnovations.com →</a>
             </article>
