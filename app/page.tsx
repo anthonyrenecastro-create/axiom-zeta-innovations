@@ -508,8 +508,11 @@ export default function HomePage() {
               <li><span><strong style={{ color: "var(--text)" }}>No account. No telemetry by default.</strong> Privacy is the architecture, not a settings toggle.</span></li>
             </ul>
             <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 28 }}>
-              <a href="mailto:anthony.castro@axiomzetainnovations.org?subject=Quadra-Seer%20Sovereign%20—%20beta%20interest" className="button-gold">
-                Join the sovereign beta →
+              <a href="https://github.com/Axiom-Zeta-Innovations-LLC/quadra-seer-equalibra-sovereign" target="_blank" rel="noreferrer" className="button-gold">
+                Run it on your machine →
+              </a>
+              <a href="mailto:anthony.castro@axiomzetainnovations.org?subject=Quadra-Seer%20Sovereign%20—%20beta%20interest" className="button-ghost">
+                Join the sovereign beta
               </a>
               <Link href="#principles" className="button-ghost">Why sovereign?</Link>
             </div>
