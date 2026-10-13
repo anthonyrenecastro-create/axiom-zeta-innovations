@@ -602,8 +602,8 @@ export default function HomePage() {
               Axiom Zeta Innovations is a Texas LLC building a small, deliberate suite of
               AI systems for independent operators — founders, SMB owners, and thinkers
               who want leverage without dependence. The studio ships in public: AI Change
-              Radar is live and taking subscriptions today, Quadra-M.I.N.D. Sight is live
-              on the web and in Play review, and the sovereign line is in active development.
+              Radar is live and taking subscriptions today, and the sovereign line is in
+              active development.
             </p>
             <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 28 }}>
               <a href={RADAR_URL} target="_blank" rel="noreferrer" className="button-primary">
