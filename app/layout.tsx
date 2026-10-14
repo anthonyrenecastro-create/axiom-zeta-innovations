@@ -22,13 +22,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="shell">
           <header className="topbar">
             <div className="container topbar-row">
-              <Link href="/" className="brand" aria-label="E.L.L.I.A. Sentinel home">
-                <span className="brand-mark" aria-hidden="true">AZ</span>
+              <Link href="/" className="brand" aria-label="E.L.L.I.A. Tech Collaboration home">
+                <span className="brand-mark" aria-hidden="true">ETC</span>
                 <span className="brand-text">
                   <span className="brand-name">
-                    E.L.L.I.A. <em>Sentinel</em>
+                    E.L.L.I.A. <em>Tech Collaboration</em>
                   </span>
-                  <span className="brand-sub">LLM / RAG reliability</span>
+                  <span className="brand-sub">Emerging Laboratory for Local Innovation &amp; Access</span>
                 </span>
               </Link>
               <nav className="topnav" aria-label="Main">
@@ -49,13 +49,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="container">
               <div className="footer-grid">
                 <div>
-                  <Link href="/" className="brand" aria-label="E.L.L.I.A. Sentinel home">
-                    <span className="brand-mark" aria-hidden="true">AZ</span>
+                  <Link href="/" className="brand" aria-label="E.L.L.I.A. Tech Collaboration home">
+                    <span className="brand-mark" aria-hidden="true">ETC</span>
                     <span className="brand-text">
                       <span className="brand-name">
-                        E.L.L.I.A. <em>Sentinel</em>
+                        E.L.L.I.A. <em>Tech Collaboration</em>
                       </span>
-                      <span className="brand-sub">Drift prevention for LLM &amp; RAG</span>
+                      <span className="brand-sub">Emerging Laboratory for Local Innovation &amp; Access</span>
                     </span>
                   </Link>
                   <p style={{ color: "var(--muted)", maxWidth: 420, marginTop: 18 }}>
