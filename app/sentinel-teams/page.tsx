@@ -28,7 +28,7 @@ export default function Page() {
             <li><span>AGPL-3.0 — free to run, modify, and share</span></li>
           </ul>
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 28 }}>
-            <a href="https://github.com/anthonyrenecastro-create/axiom-zeta-sentinel-teams" target="_blank" rel="noreferrer" className="button-gold">View on GitHub</a>
+            <a href="https://github.com/E-L-L-I-A-Tech-Collaboration/ellia-sentinel-teams" target="_blank" rel="noreferrer" className="button-gold">View on GitHub</a>
             <a href="https://axiom-zeta-sentinel-teams.onrender.com" target="_blank" rel="noreferrer" className="button-primary">Open the live gateway GUI</a>
             <Link href="/#sentinel" className="button-ghost">Compare all Sentinel tiers</Link>
           </div>

@@ -112,8 +112,8 @@ export default function HomePage() {
               </div>
               <div className="orbit-card">
                 <span className="mini-tag violet">Official LLC site</span>
-                <h4>axiomzetainnovations.com</h4>
-                <p>Entity, verification, policies, and enterprise contact live on the no-hyphen site.</p>
+                <h4>Official LLC site</h4>
+                <p>Entity, verification, policies, and enterprise contact.</p>
               </div>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default function HomePage() {
               <span className="status dev">Sovereign / official</span>
               <h3>“I need local control.”</h3>
               <p>Quadra-Seer is the sovereign local-AI lab. Entity verification, policies, app support, and enterprise contact live on the official no-hyphen site.</p>
-              <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer" className="card-cta">Visit axiomzetainnovations.com →</a>
+              <a href="https://axiom-zeta-innovations-llc-site.vercel.app" target="_blank" rel="noreferrer" className="card-cta">Visit the official site →</a>
             </article>
           </div>
         </div>
@@ -344,7 +344,7 @@ export default function HomePage() {
               <a href={NAVIGATOR_URL} target="_blank" rel="noreferrer" className="card-cta">
                 Open AZxAI Navigator →
               </a>
-              <a href="https://github.com/Axiom-Zeta-Innovations-LLC/azxai-navigator" target="_blank" rel="noreferrer" className="card-cta" style={{ marginLeft: 12 }}>
+              <a href="https://github.com/E-L-L-I-A-Tech-Collaboration/azxai-navigator" target="_blank" rel="noreferrer" className="card-cta" style={{ marginLeft: 12 }}>
                 View source →
               </a>
             </article>
@@ -468,7 +468,7 @@ export default function HomePage() {
               <p>For individual builders. One gateway, baseline drift detection, full GUI playground.</p>
               <ul><li>Stabilize / feedback / baseline-reset API</li><li>Drift diagnostics &amp; telemetry</li><li>AGPL-3.0 open source — self-host, no paywall</li></ul>
               <Link href="/sentinel-solo" className="card-cta">Sentinel Solo product page →</Link>
-              <a href="https://github.com/Axiom-Zeta-Innovations-LLC/axiom-zeta-sentinel-solo" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
+              <a href="https://github.com/E-L-L-I-A-Tech-Collaboration/ellia-sentinel-solo" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
             </article>
             <article className="card">
               <span className="status live">Live — Teams</span>
@@ -476,7 +476,7 @@ export default function HomePage() {
               <p>For teams running RAG in production. Orgs, workspaces, roles, and shared API keys.</p>
               <ul><li>Everything in Solo</li><li>Workspaces, members &amp; audit</li><li>Workspace analytics</li></ul>
               <Link href="/sentinel-teams" className="card-cta">Sentinel Teams product page →</Link>
-              <a href="https://github.com/Axiom-Zeta-Innovations-LLC/axiom-zeta-sentinel-teams" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
+              <a href="https://github.com/E-L-L-I-A-Tech-Collaboration/ellia-sentinel-teams" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
             </article>
             <article className="card">
               <span className="status dev">MVP Preview — Sovereign</span>
@@ -484,10 +484,10 @@ export default function HomePage() {
               <p>Enterprise preview. OIDC, policy engine, HA state and operator controls, config-gated in MVP.</p>
               <ul><li>Everything in Teams</li><li>OIDC / policy / airgap controls</li><li>Annual invoicing on request</li></ul>
               <Link href="/sentinel-sovereign" className="card-cta">Sentinel Sovereign product page →</Link>
-              <a href="https://github.com/Axiom-Zeta-Innovations-LLC/axiom-zeta-sentinel-sovereign" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
+              <a href="https://github.com/E-L-L-I-A-Tech-Collaboration/ellia-sentinel-sovereign" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
             </article>
           </div>
-          <p style={{color:"var(--muted-2)",fontSize:".9rem",marginTop:16}}>Sentinel is the developer-reliability lane on this hub. All three tiers are free and open source under AGPL-3.0 — run the gateway yourself with your own API key. For evaluated Sovereign or enterprise deployments, start at the official LLC site: <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>axiomzetainnovations.com</a>.</p>
+          <p style={{color:"var(--muted-2)",fontSize:".9rem",marginTop:16}}>Sentinel is the developer-reliability lane on this hub. All three tiers are free and open source under AGPL-3.0 — run the gateway yourself with your own API key. For evaluated Sovereign or enterprise deployments, start at the <a href="https://axiom-zeta-innovations-llc-site.vercel.app" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>official LLC site</a>.</p>
         </div>
       </section>
 
@@ -509,7 +509,7 @@ export default function HomePage() {
               <li><span><strong style={{ color: "var(--text)" }}>No account. No telemetry by default.</strong> Privacy is the architecture, not a settings toggle.</span></li>
             </ul>
             <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 28 }}>
-              <a href="https://github.com/Axiom-Zeta-Innovations-LLC/quadra-seer-equalibra-sovereign" target="_blank" rel="noreferrer" className="button-gold">
+              <a href="https://github.com/E-L-L-I-A-Tech-Collaboration/quadra-seer-equalibra-sovereign" target="_blank" rel="noreferrer" className="button-gold">
                 Run it on your machine →
               </a>
               <a href="mailto:anthony.castro@axiomzetainnovations.org?subject=Quadra-Seer%20Sovereign%20—%20beta%20interest" className="button-ghost">
@@ -622,7 +622,7 @@ export default function HomePage() {
               <li><span><strong style={{ color: "var(--text)" }}>Flagship:</strong> AI Change Radar — live at aichangeradar.com</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Sovereign line:</strong> Quadra-Seer Sovereign (local-first chatbot)</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Canonical product home:</strong> AI Change Radar at aichangeradar.com</span></li>
-              <li><span><strong style={{ color: "var(--text)" }}>Official LLC site:</strong> axiomzetainnovations.com for entity, verification, and contact</span></li>
+              <li><span><strong style={{ color: "var(--text)" }}>Official LLC site:</strong> for entity, verification, and contact</span></li>
             </ul>
           </div>
         </div>

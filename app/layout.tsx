@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "E.L.L.I.A. Tech Collaboration — Open-source AI systems you can own",
   description:
     "E.L.L.I.A. Tech Collaboration is an open source for profit company building operator-owned AI: AI Change Radar, Sentinel, Quadra-Seer, and AZxAI Navigator. The code is public and open-licensed; we make money from hosted versions, support, premium tiers, consulting, and donations — never for the code itself.",
-  metadataBase: new URL("https://axiomzeta-innovations.com"),
+  metadataBase: new URL("https://axiom-zeta-innovations.vercel.app"),
   openGraph: {
     title: "E.L.L.I.A. Tech Collaboration — Open-source AI systems you can own",
     description:
@@ -35,8 +35,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link href="/#sentinel">Sentinel</Link>
                 <Link href="/#consulting">Consulting</Link>
                 <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">AI Change Radar</a>
-                <a href="https://github.com/Axiom-Zeta-Innovations-LLC" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer">Official LLC</a>
+                <a href="https://github.com/E-L-L-I-A-Tech-Collaboration" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://axiom-zeta-innovations-llc-site.vercel.app" target="_blank" rel="noreferrer">Official LLC</a>
                 <Link href="/#principles">Donate</Link>
               </nav>
               <Link href="/#sentinel" className="cta-button">
@@ -89,13 +89,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <Link href="/#principles">Our Principles</Link>
                     <Link href="/#open-source">Open Source</Link>
                     <Link href="/#about">About E.L.L.I.A.</Link>
-                    <a href="https://github.com/Axiom-Zeta-Innovations-LLC" target="_blank" rel="noreferrer">GitHub ↗</a>
-                    <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer">Official LLC site ↗</a>
+                    <a href="https://github.com/E-L-L-I-A-Tech-Collaboration" target="_blank" rel="noreferrer">GitHub ↗</a>
+                    <a href="https://axiom-zeta-innovations-llc-site.vercel.app" target="_blank" rel="noreferrer">Official LLC site ↗</a>
                   </div>
                 </div>
               </div>
               <div className="footer-bottom">
-                <p>© {new Date().getFullYear()} E.L.L.I.A. Tech Collaboration. Open source — code is public under open-source licenses. <a href="https://github.com/Axiom-Zeta-Innovations-LLC" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>github.com/Axiom-Zeta-Innovations-LLC</a></p>
+                <p>© {new Date().getFullYear()} E.L.L.I.A. Tech Collaboration. Open source — code is public under open-source licenses. <a href="https://github.com/E-L-L-I-A-Tech-Collaboration" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>github.com/E-L-L-I-A-Tech-Collaboration</a></p>
                 <p>Catch drift before your users do.</p>
               </div>
             </div>
