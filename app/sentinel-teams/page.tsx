@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-export const metadata = { title: "Axiom Zeta Sentinel Teams - Axiom Zeta Innovations", description: "Sentinel Teams by Axiom Zeta Innovations. Drift prevention gateway for LLM and RAG teams." };
+export const metadata = { title: "E.L.L.I.A. Sentinel Teams - E.L.L.I.A. Tech Collaboration", description: "Sentinel Teams by E.L.L.I.A. Tech Collaboration. Drift prevention gateway for LLM and RAG teams." };
 
 export default function Page() {
   return (
     <section className="section">
       <div className="container">
-        <p className="kicker">Axiom Zeta Sentinel</p>
-        <h1 style={{ fontSize: "2.6rem", margin: "12px 0" }}>Axiom Zeta Sentinel Teams</h1>
+        <p className="kicker">E.L.L.I.A. Sentinel</p>
+        <h1 style={{ fontSize: "2.6rem", margin: "12px 0" }}>E.L.L.I.A. Sentinel Teams</h1>
         <p className="sub" style={{ maxWidth: 760 }}>For teams running RAG in production</p>
         <div className="card" style={{ marginTop: 28 }}>
           <span className="status live">Live gateway</span>

@@ -3,12 +3,12 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Axiom Zeta Innovations — Open-source AI systems you can own",
+  title: "E.L.L.I.A. Tech Collaboration — Open-source AI systems you can own",
   description:
-    "Axiom Zeta Innovations is an open source for profit company building operator-owned AI: AI Change Radar, Sentinel, Quadra-Seer, and AZxAI Navigator. The code is public and open-licensed; we make money from hosted versions, support, premium tiers, consulting, and donations — never for the code itself.",
+    "E.L.L.I.A. Tech Collaboration is an open source for profit company building operator-owned AI: AI Change Radar, Sentinel, Quadra-Seer, and AZxAI Navigator. The code is public and open-licensed; we make money from hosted versions, support, premium tiers, consulting, and donations — never for the code itself.",
   metadataBase: new URL("https://axiomzeta-innovations.com"),
   openGraph: {
-    title: "Axiom Zeta Innovations — Open-source AI systems you can own",
+    title: "E.L.L.I.A. Tech Collaboration — Open-source AI systems you can own",
     description:
       "Open source for profit. AI Change Radar, Sentinel, Quadra-Seer, AZxAI Navigator — public code, honest pricing, sovereign by architecture.",
     type: "website",
@@ -22,11 +22,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="shell">
           <header className="topbar">
             <div className="container topbar-row">
-              <Link href="/" className="brand" aria-label="Axiom Zeta Sentinel home">
+              <Link href="/" className="brand" aria-label="E.L.L.I.A. Sentinel home">
                 <span className="brand-mark" aria-hidden="true">AZ</span>
                 <span className="brand-text">
                   <span className="brand-name">
-                    Axiom Zeta <em>Sentinel</em>
+                    E.L.L.I.A. <em>Sentinel</em>
                   </span>
                   <span className="brand-sub">LLM / RAG reliability</span>
                 </span>
@@ -49,11 +49,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="container">
               <div className="footer-grid">
                 <div>
-                  <Link href="/" className="brand" aria-label="Axiom Zeta Sentinel home">
+                  <Link href="/" className="brand" aria-label="E.L.L.I.A. Sentinel home">
                     <span className="brand-mark" aria-hidden="true">AZ</span>
                     <span className="brand-text">
                       <span className="brand-name">
-                        Axiom Zeta <em>Sentinel</em>
+                        E.L.L.I.A. <em>Sentinel</em>
                       </span>
                       <span className="brand-sub">Drift prevention for LLM &amp; RAG</span>
                     </span>
@@ -78,7 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <Link href="/sentinel-sovereign">Sentinel Sovereign</Link>
                     <Link href="/#how">How it works</Link>
                   </div>
-                  <h4 style={{ marginTop: 22, fontSize: ".85rem", color: "var(--muted-2)" }}>Also from Axiom Zeta</h4>
+                  <h4 style={{ marginTop: 22, fontSize: ".85rem", color: "var(--muted-2)" }}>Also from E.L.L.I.A.</h4>
                   <div className="footer-links">
                     <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">AI Change Radar ↗</a>
                   </div>
@@ -88,14 +88,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <div className="footer-links">
                     <Link href="/#principles">Our Principles</Link>
                     <Link href="/#open-source">Open Source</Link>
-                    <Link href="/#about">About Axiom Zeta</Link>
+                    <Link href="/#about">About E.L.L.I.A.</Link>
                     <a href="https://github.com/Axiom-Zeta-Innovations-LLC" target="_blank" rel="noreferrer">GitHub ↗</a>
                     <a href="https://axiomzetainnovations.com" target="_blank" rel="noreferrer">Official LLC site ↗</a>
                   </div>
                 </div>
               </div>
               <div className="footer-bottom">
-                <p>© {new Date().getFullYear()} Axiom Zeta Innovations LLC. Open source — code is public under open-source licenses. <a href="https://github.com/Axiom-Zeta-Innovations-LLC" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>github.com/Axiom-Zeta-Innovations-LLC</a></p>
+                <p>© {new Date().getFullYear()} E.L.L.I.A. Tech Collaboration. Open source — code is public under open-source licenses. <a href="https://github.com/Axiom-Zeta-Innovations-LLC" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>github.com/Axiom-Zeta-Innovations-LLC</a></p>
                 <p>Catch drift before your users do.</p>
               </div>
             </div>

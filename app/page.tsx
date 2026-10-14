@@ -47,12 +47,13 @@ export default function HomePage() {
         </div>
         <div className="container hero-grid">
           <div>
-            <p className="eyebrow">Axiom Zeta Innovations — Product Hub</p>
+            <p className="eyebrow">E.L.L.I.A. Tech Collaboration — Product Hub</p>
+            <p className="eyebrow" style={{ marginTop: 4, opacity: 0.75 }}>Emerging Laboratory for Local Innovation &amp; Access</p>
             <h1>
               Pick your lane. <span className="hl">Own the system.</span>
             </h1>
             <p className="lede">
-              Axiom Zeta Innovations builds operator-owned AI for people who refuse to rent
+              E.L.L.I.A. Tech Collaboration builds operator-owned AI for people who refuse to rent
               their own judgment. Start with the system built for your job: <strong style={{ color: "var(--text)" }}>AI Change Radar</strong> for
               SMB vendor intelligence, <strong style={{ color: "var(--text)" }}>Sentinel</strong> for LLM/RAG reliability,
               or <strong style={{ color: "var(--text)" }}>Quadra-Seer</strong> for sovereign local AI.
@@ -65,16 +66,16 @@ export default function HomePage() {
                 Choose your path
               </Link>
             </div>
-            <div className="hero-proof" aria-label="Axiom Zeta lanes">
+            <div className="hero-proof" aria-label="E.L.L.I.A. lanes">
               <span>SMB intelligence → Radar</span>
               <span>AI builders → Sentinel</span>
               <span>Sovereign → Quadra-Seer</span>
             </div>
           </div>
 
-          <div className="constellation" aria-label="Axiom Zeta product routes">
+          <div className="constellation" aria-label="E.L.L.I.A. product routes">
             <div className="constellation-head">
-              <strong>AXIOM ZETA / START HERE</strong>
+              <strong>E.L.L.I.A. / START HERE</strong>
               <span className="live-pill">Radar Live</span>
             </div>
             <div className="core-card">
@@ -96,7 +97,7 @@ export default function HomePage() {
             <div className="orbit-grid">
               <div className="orbit-card">
                 <span className="mini-tag teal">For AI builders — Live</span>
-                <h4>Axiom Zeta Sentinel</h4>
+                <h4>E.L.L.I.A. Sentinel</h4>
                 <p>Drift prevention for LLM &amp; RAG systems. Start with Solo or Teams — live now. Sovereign in preview.</p>
               </div>
               <div className="orbit-card">
@@ -126,7 +127,7 @@ export default function HomePage() {
             <p className="kicker">Start here</p>
             <h2>Pick the lane that matches the job</h2>
             <p className="sub">
-              Axiom Zeta is the hub. Each product has one home, one buyer, and one next step.
+              E.L.L.I.A. is the hub. Each product has one home, one buyer, and one next step.
             </p>
           </div>
           <div className="grid-3">
@@ -251,7 +252,7 @@ export default function HomePage() {
       <section className="section" id="products">
         <div className="container">
           <div className="section-head">
-            <p className="kicker gold">The Axiom Zeta Suite</p>
+            <p className="kicker gold">The E.L.L.I.A. Suite</p>
             <h2>Systems by job, not a pile of products.</h2>
             <p className="sub">
               Radar sells on its own site. Navigator deepens Radar. Sentinel serves AI builders.
@@ -286,7 +287,7 @@ export default function HomePage() {
               <div style={{ marginTop: 16 }}>
                 <span className="status live">Live — AI builders</span>
               </div>
-              <h3>Axiom Zeta Sentinel</h3>
+              <h3>E.L.L.I.A. Sentinel</h3>
               <p>
                 Drift prevention for LLM &amp; RAG systems. Sentinel watches metric
                 streams against a learned baseline and returns a bounded action:
@@ -360,7 +361,7 @@ export default function HomePage() {
             <p className="kicker gold">Services</p>
             <h2>Done-for-you services, on open-source software</h2>
             <p className="sub">
-              Every Axiom Zeta product is free and open source under AGPL-3.0 — download
+              Every E.L.L.I.A. product is free and open source under AGPL-3.0 — download
               it, self-host it, no paywall, no license key. These services are for teams
               that want it implemented, interpreted, and operated for them.
             </p>
@@ -446,15 +447,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── AXIOM ZETA SENTINEL ─────────────────────────────── */}
+      {/* ── E.L.L.I.A. SENTINEL ─────────────────────────────── */}
       <section className="section alt" id="sentinel">
         <div className="container">
           <div className="section-head">
-            <p className="kicker">Live — Axiom Zeta Sentinel</p>
+            <p className="kicker">Live — E.L.L.I.A. Sentinel</p>
             <h2>Sentinel: drift prevention for LLM &amp; RAG systems</h2>
             <p className="sub">
               Your models and data shift quietly — embeddings drift, retrieval scores slide,
-              outputs decay. Axiom Zeta Sentinel watches metric streams against a learned
+              outputs decay. E.L.L.I.A. Sentinel watches metric streams against a learned
               baseline and returns a bounded stabilized signal, a drift score, and a clear
               action: pass, clamp, retry, fallback, or human review. Free and open source
               under AGPL-3.0 — self-host the gateway and set your own API key.
@@ -547,7 +548,7 @@ export default function HomePage() {
               <h3>You own the system</h3>
               <p>
                 Local-first where it matters, exportable everywhere, and never designed
-                to hold your data hostage. If Axiom Zeta disappeared tomorrow, your
+                to hold your data hostage. If E.L.L.I.A. disappeared tomorrow, your
                 work should survive intact.
               </p>
             </article>
@@ -574,7 +575,7 @@ export default function HomePage() {
             <span className="mini-tag gold">Support the work</span>
             <h3 style={{ margin: "12px 0 8px" }}>Fund independent, open-source AI</h3>
             <p style={{ maxWidth: 560, margin: "0 auto 18px" }}>
-              Donations go directly to building and maintaining Axiom Zeta&apos;s open-source
+              Donations go directly to building and maintaining E.L.L.I.A.&apos;s open-source
               systems — no investors, no ads, no data selling. Every contribution keeps
               the code public and the lights on.
             </p>
@@ -597,9 +598,9 @@ export default function HomePage() {
         <div className="container spotlight">
           <div>
             <p className="kicker">About</p>
-            <h2>Axiom Zeta Innovations LLC</h2>
+            <h2>E.L.L.I.A. Tech Collaboration</h2>
             <p className="sub" style={{ maxWidth: "none" }}>
-              Axiom Zeta Innovations is a Texas LLC building a small, deliberate suite of
+              E.L.L.I.A. Tech Collaboration is a Texas LLC building a small, deliberate suite of
               AI systems for independent operators — founders, SMB owners, and thinkers
               who want leverage without dependence. The studio ships in public: AI Change
               Radar is live and taking subscriptions today, and the sovereign line is in
@@ -617,7 +618,7 @@ export default function HomePage() {
           <div className="card">
             <h3 style={{ marginTop: 0 }}>At a glance</h3>
             <ul>
-              <li><span><strong style={{ color: "var(--text)" }}>Entity:</strong> Axiom Zeta Innovations LLC (Texas)</span></li>
+              <li><span><strong style={{ color: "var(--text)" }}>Entity:</strong> E.L.L.I.A. Tech Collaboration (Texas)</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Flagship:</strong> AI Change Radar — live at aichangeradar.com</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Sovereign line:</strong> Quadra-Seer Sovereign (local-first chatbot)</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Canonical product home:</strong> AI Change Radar at aichangeradar.com</span></li>
@@ -643,7 +644,7 @@ export default function HomePage() {
             <article className="card">
               <span className="mini-tag teal">For builders</span>
               <h3>Technical consultation</h3>
-              <p>Architecture reviews, deployment planning, and integration guidance for teams adopting Axiom Zeta systems.</p>
+              <p>Architecture reviews, deployment planning, and integration guidance for teams adopting E.L.L.I.A. systems.</p>
             </article>
             <article className="card">
               <span className="mini-tag gold">For operators</span>
