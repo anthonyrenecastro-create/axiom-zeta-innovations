@@ -33,13 +33,8 @@ export default function HomePage() {
               <h3 style={{ margin: "10px 0 6px" }}>AI Change Radar →</h3>
               <p style={{ margin: 0 }}>Weekly AI vendor-change briefs. Start here if AI tools run your business.</p>
             </a>
-            <Link href="/#sentinel" className="card" style={{ display: "block", padding: "18px 20px" }}>
-              <span className="mini-tag teal">02 · AI builders</span>
-              <h3 style={{ margin: "10px 0 6px" }}>Sentinel →</h3>
-              <p style={{ margin: 0 }}>Drift prevention for LLM and RAG systems.</p>
-            </Link>
             <Link href="/#quadra-seer" className="card" style={{ display: "block", padding: "18px 20px" }}>
-              <span className="mini-tag green">03 · Sovereign</span>
+              <span className="mini-tag green">02 · Sovereign</span>
               <h3 style={{ margin: "10px 0 6px" }}>Quadra-Seer →</h3>
               <p style={{ margin: 0 }}>Local AI on your machine. No cloud required.</p>
             </Link>
@@ -55,8 +50,7 @@ export default function HomePage() {
             <p className="lede">
               E.L.L.I.A. Tech Collaboration builds operator-owned AI for people who refuse to rent
               their own judgment. Start with the system built for your job: <strong style={{ color: "var(--text)" }}>AI Change Radar</strong> for
-              SMB vendor intelligence, <strong style={{ color: "var(--text)" }}>Sentinel</strong> for LLM/RAG reliability,
-              or <strong style={{ color: "var(--text)" }}>Quadra-Seer</strong> for sovereign local AI.
+              SMB vendor intelligence, or <strong style={{ color: "var(--text)" }}>Quadra-Seer</strong> for sovereign local AI.
             </p>
             <div className="hero-actions">
               <a href={RADAR_URL} target="_blank" rel="noreferrer" className="button-gold">
@@ -68,7 +62,6 @@ export default function HomePage() {
             </div>
             <div className="hero-proof" aria-label="E.L.L.I.A. lanes">
               <span>SMB intelligence → Radar</span>
-              <span>AI builders → Sentinel</span>
               <span>Sovereign → Quadra-Seer</span>
             </div>
           </div>
@@ -95,11 +88,6 @@ export default function HomePage() {
               </div>
             </div>
             <div className="orbit-grid">
-              <div className="orbit-card">
-                <span className="mini-tag teal">For AI builders — Live</span>
-                <h4>E.L.L.I.A. Sentinel</h4>
-                <p>Drift prevention for LLM &amp; RAG systems. Start with Solo or Teams — live now. Sovereign in preview.</p>
-              </div>
               <div className="orbit-card">
                 <span className="mini-tag gold">Premium action layer</span>
                 <h4>AZxAI Navigator</h4>
@@ -138,10 +126,10 @@ export default function HomePage() {
               <a href={RADAR_URL} target="_blank" rel="noreferrer" className="card-cta">Go to aichangeradar.com →</a>
             </article>
             <article className="card">
-              <span className="status live">AI builders — Live</span>
-              <h3>“My LLM/RAG system drifts.”</h3>
-              <p>Start with Sentinel. Solo is for individual builders, Teams for shared RAG services, and Sovereign for evaluated enterprise/sovereign deployments.</p>
-              <Link href="#sentinel" className="card-cta">Explore Sentinel ↓</Link>
+              <span className="status live">AI operators — Live</span>
+              <h3>"I need to act on vendor changes."</h3>
+              <p>AZxAI Navigator is the premium action layer for AI Change Radar — exposure matching, a decision sandbox, and approved, tracked action.</p>
+              <a href={NAVIGATOR_URL} target="_blank" rel="noreferrer" className="card-cta">Open AZxAI Navigator →</a>
             </article>
             <article className="card">
               <span className="status dev">Sovereign / official</span>
@@ -255,7 +243,7 @@ export default function HomePage() {
             <p className="kicker gold">The E.L.L.I.A. Suite</p>
             <h2>Systems by job, not a pile of products.</h2>
             <p className="sub">
-              Radar sells on its own site. Navigator deepens Radar. Sentinel serves AI builders.
+              Radar sells on its own site. Navigator deepens Radar.
               Quadra-Seer is the sovereign lab. Everything else is proof, not another front door.
             </p>
           </div>
@@ -280,27 +268,6 @@ export default function HomePage() {
               <a href={RADAR_URL} target="_blank" rel="noreferrer" className="card-cta">
                 Visit aichangeradar.com →
               </a>
-            </article>
-
-            <article className="card">
-              <div className="card-icon" aria-hidden="true">🛡️</div>
-              <div style={{ marginTop: 16 }}>
-                <span className="status live">Live — AI builders</span>
-              </div>
-              <h3>E.L.L.I.A. Sentinel</h3>
-              <p>
-                Drift prevention for LLM &amp; RAG systems. Sentinel watches metric
-                streams against a learned baseline and returns a bounded action:
-                pass, clamp, retry, fallback, or human review.
-              </p>
-              <ul>
-                <li>Solo for individual builders</li>
-                <li>Teams for shared RAG services</li>
-                <li>Sovereign preview for evaluated deployments</li>
-              </ul>
-              <Link href="#sentinel" className="card-cta">
-                Explore Sentinel ↓
-              </Link>
             </article>
 
             <article className="card">
@@ -407,10 +374,10 @@ export default function HomePage() {
               <h3>AI Reliability Audits</h3>
               <p className="amount" style={{ fontSize: "1.6rem", fontWeight: 700 }}>$499 – $1,499</p>
               <p>
-                We deploy the Sentinel gateway in front of your LLM/RAG system, audit for drift
-                and prompt injection, install guardrails, and monitor ongoing. Starter for indie
-                devs and small shops; Professional for agencies and SMBs; Sovereign for
-                self-hosted / air-gapped enterprise — law, finance, healthcare.
+                We put drift detection and guardrails in front of your LLM/RAG system, audit for drift
+                and prompt injection, and monitor ongoing. Starter for indie
+                devs and small shops; Professional for agencies and SMBs; Enterprise for
+                self-hosted / air-gapped deployments — law, finance, healthcare.
               </p>
               <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 12 }}>
                 <a href={SERVICES.auditStarter} target="_blank" rel="noreferrer" className="button-ghost">
@@ -421,7 +388,7 @@ export default function HomePage() {
                 </a>
               </div>
               <p style={{ marginTop: 10, fontSize: ".85rem", opacity: 0.75 }}>
-                Sovereign (enterprise): <a href="mailto:anthony.castro@axiomzetainnovations.com?subject=Sentinel%20Sovereign%20audit%20inquiry" style={{ color: "var(--accent)", fontWeight: 600 }}>request a quote →</a>
+                Enterprise deployments: <a href="mailto:anthony.castro@axiomzetainnovations.com?subject=AI%20Reliability%20Audit%20enterprise%20inquiry" style={{ color: "var(--accent)", fontWeight: 600 }}>request a quote →</a>
               </p>
             </article>
             <article className="card">
@@ -444,50 +411,6 @@ export default function HomePage() {
           <p style={{ color: "var(--muted-2)", fontSize: ".9rem", marginTop: 20, textAlign: "center" }}>
             Prefer to talk first? <a href={CONSULT_URL} target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>Schedule a consultation →</a>
           </p>
-        </div>
-      </section>
-
-      {/* ── E.L.L.I.A. SENTINEL ─────────────────────────────── */}
-      <section className="section alt" id="sentinel">
-        <div className="container">
-          <div className="section-head">
-            <p className="kicker">Live — E.L.L.I.A. Sentinel</p>
-            <h2>Sentinel: drift prevention for LLM &amp; RAG systems</h2>
-            <p className="sub">
-              Your models and data shift quietly — embeddings drift, retrieval scores slide,
-              outputs decay. E.L.L.I.A. Sentinel watches metric streams against a learned
-              baseline and returns a bounded stabilized signal, a drift score, and a clear
-              action: pass, clamp, retry, fallback, or human review. Free and open source
-              under AGPL-3.0 — self-host the gateway and set your own API key.
-            </p>
-          </div>
-          <div className="grid-3">
-            <article className="card">
-              <span className="status live">Live — Solo</span>
-              <h3>Sentinel Solo</h3>
-              <p>For individual builders. One gateway, baseline drift detection, full GUI playground.</p>
-              <ul><li>Stabilize / feedback / baseline-reset API</li><li>Drift diagnostics &amp; telemetry</li><li>AGPL-3.0 open source — self-host, no paywall</li></ul>
-              <Link href="/sentinel-solo" className="card-cta">Sentinel Solo product page →</Link>
-              <a href="https://github.com/E-L-L-I-A-Tech-Collaboration/ellia-sentinel-solo" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
-            </article>
-            <article className="card">
-              <span className="status live">Live — Teams</span>
-              <h3>Sentinel Teams</h3>
-              <p>For teams running RAG in production. Orgs, workspaces, roles, and shared API keys.</p>
-              <ul><li>Everything in Solo</li><li>Workspaces, members &amp; audit</li><li>Workspace analytics</li></ul>
-              <Link href="/sentinel-teams" className="card-cta">Sentinel Teams product page →</Link>
-              <a href="https://github.com/E-L-L-I-A-Tech-Collaboration/ellia-sentinel-teams" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
-            </article>
-            <article className="card">
-              <span className="status dev">MVP Preview — Sovereign</span>
-              <h3>Sentinel Sovereign</h3>
-              <p>Enterprise preview. OIDC, policy engine, HA state and operator controls, config-gated in MVP.</p>
-              <ul><li>Everything in Teams</li><li>OIDC / policy / airgap controls</li><li>Annual invoicing on request</li></ul>
-              <Link href="/sentinel-sovereign" className="card-cta">Sentinel Sovereign product page →</Link>
-              <a href="https://github.com/E-L-L-I-A-Tech-Collaboration/ellia-sentinel-sovereign" target="_blank" rel="noreferrer" className="card-cta">Open source — GitHub →</a>
-            </article>
-          </div>
-          <p style={{color:"var(--muted-2)",fontSize:".9rem",marginTop:16}}>Sentinel is the developer-reliability lane on this hub. All three tiers are free and open source under AGPL-3.0 — run the gateway yourself with your own API key. For evaluated Sovereign or enterprise deployments, start at the <a href="https://axiom-zeta-innovations-llc-site.vercel.app" target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>official LLC site</a>.</p>
         </div>
       </section>
 
