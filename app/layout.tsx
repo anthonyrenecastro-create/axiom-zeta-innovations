@@ -5,12 +5,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "E.L.L.I.A. Tech Collaboration — Open-source AI systems you can own",
   description:
-    "E.L.L.I.A. Tech Collaboration is an open source for profit company building operator-owned AI: AI Change Radar, Sentinel, Quadra-Seer, and AZxAI Navigator. The code is public and open-licensed; we make money from hosted versions, support, premium tiers, consulting, and donations — never for the code itself.",
-  metadataBase: new URL("https://axiom-zeta-innovations.vercel.app"),
+    "E.L.L.I.A. Tech Collaboration is an open source non-profit building operator-owned AI: AI Change Radar, Sentinel, Quadra-Seer, and AZxAI Navigator. The code is public and open-licensed; we're sustained by donations, grants, and community support — the software is free, forever.",
+  metadataBase: new URL("https://elliatechcollab.com"),
   openGraph: {
     title: "E.L.L.I.A. Tech Collaboration — Open-source AI systems you can own",
     description:
-      "Open source for profit. AI Change Radar, Sentinel, Quadra-Seer, AZxAI Navigator — public code, honest pricing, sovereign by architecture.",
+      "Open source non-profit. AI Change Radar, Sentinel, Quadra-Seer, AZxAI Navigator — public code, sovereign by architecture.",
     type: "website",
   },
 };
@@ -59,9 +59,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     </span>
                   </Link>
                   <p style={{ color: "var(--muted)", maxWidth: 420, marginTop: 18 }}>
-                    Texas-based studio building open-source, operator-owned AI — local-first where it matters,
-                    signal-driven where it counts. The code is public; we earn from hosted, support, and premium tiers.
-                    No lock-in. No surveillance by default.
+                    Texas-based non-profit building open-source, operator-owned AI — local-first where it matters,
+                    signal-driven where it counts. The code is public; we&apos;re sustained by donations, grants,
+                    and community support. No lock-in. No surveillance by default.
                   </p>
                   <p style={{ color: "var(--muted)", marginTop: 14, fontSize: ".94rem" }}>
                     Contact:{" "}
