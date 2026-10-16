@@ -311,9 +311,6 @@ export default function HomePage() {
               <a href={NAVIGATOR_URL} target="_blank" rel="noreferrer" className="card-cta">
                 Open AZxAI Navigator →
               </a>
-              <a href="https://github.com/E-L-L-I-A-Tech-Collaboration/azxai-navigator" target="_blank" rel="noreferrer" className="card-cta" style={{ marginLeft: 12 }}>
-                View source →
-              </a>
             </article>
           </div>
 
@@ -432,10 +429,7 @@ export default function HomePage() {
               <li><span><strong style={{ color: "var(--text)" }}>No account. No telemetry by default.</strong> Privacy is the architecture, not a settings toggle.</span></li>
             </ul>
             <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 28 }}>
-              <a href="https://github.com/E-L-L-I-A-Tech-Collaboration/quadra-seer-equalibra-sovereign" target="_blank" rel="noreferrer" className="button-gold">
-                Run it on your machine →
-              </a>
-              <a href="mailto:anthony.castro@axiomzetainnovations.org?subject=Quadra-Seer%20Sovereign%20—%20beta%20interest" className="button-ghost">
+              <a href="mailto:anthony.castro@axiomzetainnovations.org?subject=Quadra-Seer%20Sovereign%20—%20beta%20interest" className="button-gold">
                 Join the sovereign beta
               </a>
               <Link href="#principles" className="button-ghost">Why sovereign?</Link>
