@@ -3,14 +3,14 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "E.L.L.I.A. Tech Collaboration — Open-source AI systems you can own",
+  title: "E.L.L.I.A. Tech Collaboration — A Community Building Open Source",
   description:
-    "E.L.L.I.A. Tech Collaboration is an open source non-profit building operator-owned AI: AI Change Radar, Quadra-Seer, and AZxAI Navigator. The code is public and open-licensed; we're sustained by donations, grants, and community support — the software is free, forever.",
+    "E.L.L.I.A. Tech Collaboration is a community of software and hardware developers working towards open source products. The code is public and open-licensed; we're sustained by donations, grants, and community support — the software is free, forever.",
   metadataBase: new URL("https://elliatechcollab.com"),
   openGraph: {
-    title: "E.L.L.I.A. Tech Collaboration — Open-source AI systems you can own",
+    title: "E.L.L.I.A. Tech Collaboration — A Community Building Open Source",
     description:
-      "Open source non-profit. AI Change Radar, Quadra-Seer, AZxAI Navigator — public code, sovereign by architecture.",
+      "A community of software and hardware developers working towards open source products — public code, sovereign by architecture.",
     type: "website",
   },
 };
@@ -34,7 +34,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <nav className="topnav" aria-label="Main">
                 <Link href="/#products">Products</Link>
                 <Link href="/#consulting">Consulting</Link>
-                <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">AI Change Radar</a>
                 <a href="https://github.com/E-L-L-I-A-Tech-Collaboration" target="_blank" rel="noreferrer">GitHub</a>
                 <a href="https://axiom-zeta-innovations-llc-site.vercel.app" target="_blank" rel="noreferrer">Official LLC</a>
                 <Link href="/#principles">Donate</Link>
@@ -73,7 +72,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <div>
                   <h4>Products</h4>
                   <div className="footer-links">
-                    <a href="https://www.aichangeradar.com" target="_blank" rel="noreferrer">AI Change Radar ↗</a>
                     <Link href="/#quadra-seer">Quadra-Seer Sovereign</Link>
                     <Link href="/#how">How it works</Link>
                   </div>
