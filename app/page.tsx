@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-const RADAR_URL = "https://www.aichangeradar.com";
 const NAVIGATOR_URL = "https://azxai-navigator.onrender.com";
+const GITHUB_URL = "https://github.com/E-L-L-I-A-Tech-Collaboration";
 // Live Stripe donation payment links (created 2026-10-10)
 const DONATE_TIERS = [
   { label: "$25", url: "https://buy.stripe.com/9B68wR50k2kD5wicpj18c0h" },
@@ -28,10 +28,10 @@ export default function HomePage() {
       <section className="hero">
         <div className="container" style={{ marginBottom: 28 }}>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 12 }}>
-            <a href={RADAR_URL} target="_blank" rel="noreferrer" className="card" style={{ display: "block", padding: "18px 20px" }}>
-              <span className="mini-tag gold">01 · SMB operators</span>
-              <h3 style={{ margin: "10px 0 6px" }}>AI Change Radar →</h3>
-              <p style={{ margin: 0 }}>Weekly AI vendor-change briefs. Start here if AI tools run your business.</p>
+            <a href={GITHUB_URL} target="_blank" rel="noreferrer" className="card" style={{ display: "block", padding: "18px 20px" }}>
+              <span className="mini-tag gold">01 · Open community</span>
+              <h3 style={{ margin: "10px 0 6px" }}>Build in the open →</h3>
+              <p style={{ margin: 0 }}>Software and hardware developers working towards open source products. Start here to contribute.</p>
             </a>
             <Link href="/#quadra-seer" className="card" style={{ display: "block", padding: "18px 20px" }}>
               <span className="mini-tag green">02 · Sovereign</span>
@@ -42,56 +42,57 @@ export default function HomePage() {
         </div>
         <div className="container hero-grid">
           <div>
-            <p className="eyebrow">E.L.L.I.A. Tech Collaboration — Product Hub</p>
+            <p className="eyebrow">E.L.L.I.A. Tech Collaboration — Open Research Community</p>
             <p className="eyebrow" style={{ marginTop: 4, opacity: 0.75 }}>Emerging Laboratory for Local Innovation &amp; Access</p>
             <h1>
-              Pick your lane. <span className="hl">Own the system.</span>
+              A community of developers, <span className="hl">building open source.</span>
             </h1>
             <p className="lede">
-              E.L.L.I.A. Tech Collaboration builds operator-owned AI for people who refuse to rent
-              their own judgment. Start with the system built for your job: <strong style={{ color: "var(--text)" }}>AI Change Radar</strong> for
-              SMB vendor intelligence, or <strong style={{ color: "var(--text)" }}>Quadra-Seer</strong> for sovereign local AI.
+              We are a community of software and hardware developers working towards open
+              source products — in the open, to a scientific standard, for anyone to
+              inspect, use, and improve. Open intelligence. Independent thinking.
             </p>
             <div className="hero-actions">
-              <a href={RADAR_URL} target="_blank" rel="noreferrer" className="button-gold">
-                Start with AI Change Radar →
+              <a href={GITHUB_URL} target="_blank" rel="noreferrer" className="button-gold">
+                Explore the open work →
               </a>
-              <Link href="#start-here" className="button-ghost">
-                Choose your path
+              <Link href="#principles" className="button-ghost">
+                Our principles
               </Link>
             </div>
-            <div className="hero-proof" aria-label="E.L.L.I.A. lanes">
-              <span>SMB intelligence → Radar</span>
-              <span>Sovereign → Quadra-Seer</span>
+            <div className="hero-proof" aria-label="E.L.L.I.A. commitments">
+              <span>Open source · AGPL-3.0</span>
+              <span>Sovereign by architecture</span>
             </div>
           </div>
 
-          <div className="constellation" aria-label="E.L.L.I.A. product routes">
+          <div className="constellation" aria-label="E.L.L.I.A. mission">
             <div className="constellation-head">
-              <strong>E.L.L.I.A. / START HERE</strong>
-              <span className="live-pill">Radar Live</span>
+              <strong>E.L.L.I.A. / THE MISSION</strong>
+              <span className="live-pill">Open source</span>
             </div>
             <div className="core-card">
-              <span className="core-tag">For SMB operators — Live</span>
-              <h3>AI Change Radar</h3>
+              <span className="core-tag">The mission — always</span>
+              <h3>Open intelligence. Independent thinking.</h3>
               <p>
-                Weekly vendor-change intelligence for businesses running on AI tools.
-                The canonical product home is aichangeradar.com.
+                The most important technology of our time should be built in the open —
+                auditable by anyone, owned by no one, and held to the same standard of
+                proof we&apos;d demand of science. No black boxes. No &quot;trust us.&quot;
               </p>
               <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 16 }}>
-                <a href={RADAR_URL} target="_blank" rel="noreferrer" className="button-primary" style={{ padding: "11px 18px" }}>
-                  Open aichangeradar.com →
+                <a href={GITHUB_URL} target="_blank" rel="noreferrer" className="button-primary" style={{ padding: "11px 18px" }}>
+                  Browse the repositories →
                 </a>
-                <a href={`${RADAR_URL}/sample`} target="_blank" rel="noreferrer" className="button-ghost" style={{ padding: "11px 18px" }}>
-                  Sample brief
-                </a>
+                <Link href="#principles" className="button-ghost" style={{ padding: "11px 18px" }}>
+                  How we work
+                </Link>
               </div>
             </div>
             <div className="orbit-grid">
               <div className="orbit-card">
-                <span className="mini-tag gold">Premium action layer</span>
-                <h4>AZxAI Navigator</h4>
-                <p>Turn Radar briefs into tracked decisions and approved action inside your AI operations.</p>
+                <span className="mini-tag gold">Open research</span>
+                <h4>Community lab</h4>
+                <p>Experiments, prototypes, and infrastructure — public from day one.</p>
               </div>
               <div className="orbit-card">
                 <span className="mini-tag green">Sovereign lab</span>
@@ -115,20 +116,14 @@ export default function HomePage() {
             <p className="kicker">Start here</p>
             <h2>Pick the lane that matches the job</h2>
             <p className="sub">
-              E.L.L.I.A. is the hub. Each product has one home, one buyer, and one next step.
+              The mission comes first. Each system below has one home, one purpose, and one next step.
             </p>
           </div>
           <div className="grid-3">
             <article className="card">
-              <span className="status live">SMB operators — Live</span>
-              <h3>“My AI vendors keep changing.”</h3>
-              <p>Go to AI Change Radar for the weekly brief, sample, pricing, and onboarding. Navigator is the premium action layer once the brief lands.</p>
-              <a href={RADAR_URL} target="_blank" rel="noreferrer" className="card-cta">Go to aichangeradar.com →</a>
-            </article>
-            <article className="card">
               <span className="status live">AI operators — Live</span>
-              <h3>"I need to act on vendor changes."</h3>
-              <p>AZxAI Navigator is the premium action layer for AI Change Radar — exposure matching, a decision sandbox, and approved, tracked action.</p>
+              <h3>"I need to act on AI changes."</h3>
+              <p>AZxAI Navigator maps your AI operations, matches vendor changes to the workflows they touch, and turns alerts into approved, tracked action.</p>
               <a href={NAVIGATOR_URL} target="_blank" rel="noreferrer" className="card-cta">Open AZxAI Navigator →</a>
             </article>
             <article className="card">
@@ -137,101 +132,12 @@ export default function HomePage() {
               <p>Quadra-Seer is the sovereign local-AI lab. Entity verification, policies, app support, and enterprise contact live on the official no-hyphen site.</p>
               <a href="https://axiom-zeta-innovations-llc-site.vercel.app" target="_blank" rel="noreferrer" className="card-cta">Visit the official site →</a>
             </article>
-          </div>
-        </div>
-      </section>
-
-      {/* ── ADVERTISING PORTAL: AI CHANGE RADAR ───────────────── */}
-      <section className="section alt" id="platform">
-        <div className="container">
-          <div className="section-head">
-            <p className="kicker">Flagship — canonical home: aichangeradar.com</p>
-            <h2>AI Change Radar: never be blindsided by your own AI stack again</h2>
-            <p className="sub">
-              Your vendors ship changes every week — retired models, quiet pricing moves,
-              new policy defaults. AI Change Radar monitors public vendor sources continuously
-              and delivers one concise Monday brief: what changed, whether it matters to you,
-              and the next step worth taking. Explore the live product below, or open it
-              full-screen at aichangeradar.com.
-            </p>
-          </div>
-
-          <div className="portal-grid">
-            <div className="portal-copy">
-              <div className="price-row" aria-label="AI Change Radar plans">
-                <div className="price-mini">
-                  <h4>Radar 5</h4>
-                  <p className="amount">Free</p>
-                  <p>Track up to 5 AI vendors. Perfect for a focused stack.</p>
-                </div>
-                <div className="price-mini featured">
-                  <h4>Radar 15</h4>
-                  <p className="amount">Free</p>
-                  <p>Track up to 15 vendors. Most SMBs start here.</p>
-                </div>
-                <div className="price-mini">
-                  <h4>Unlimited</h4>
-                  <p className="amount">Free</p>
-                  <p>Every vendor you run. Full-coverage radar.</p>
-                </div>
-              </div>
-
-              <ul className="ticks">
-                <li><span><strong style={{ color: "var(--text)" }}>56 vendor sources monitored</strong> — changelogs, pricing pages, security &amp; policy docs, checked from public sources.</span></li>
-                <li><span><strong style={{ color: "var(--text)" }}>One brief, every Monday.</strong> Sourced, severity-ranked, written to be acted on in minutes — not another dashboard to babysit.</span></li>
-                <li><span><strong style={{ color: "var(--text)" }}>Self-serve in minutes.</strong> Pick your industry and vendors; the radar does the watching. Cancel anytime.</span></li>
-              </ul>
-
-              <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 28 }}>
-                <a href={`${RADAR_URL}/onboarding`} target="_blank" rel="noreferrer" className="button-primary">
-                  Start tracking your stack →
-                </a>
-                <a href={`${RADAR_URL}/sample`} target="_blank" rel="noreferrer" className="button-ghost">
-                  Read a sample brief
-                </a>
-              </div>
-              <p style={{ color: "var(--muted-2)", fontSize: ".9rem", marginTop: 16 }}>
-                Subscriptions are handled securely via Shopify on{" "}
-                <a href={RADAR_URL} target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 600 }}>aichangeradar.com</a>.
-                This portal is the advertising home; the product lives there.
-              </p>
-            </div>
-
-            <div>
-              <div className="browser-frame">
-                <div className="browser-bar" aria-hidden="true">
-                  <span className="dot r" /><span className="dot y" /><span className="dot g" />
-                  <span className="url-pill">
-                    🔒 <strong>www.aichangeradar.com</strong> — live product preview
-                  </span>
-                </div>
-                <iframe
-                  src={RADAR_URL}
-                  title="AI Change Radar — live site preview"
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
-                />
-                <div className="frame-note">
-                  <span>Live preview embedded from aichangeradar.com. If your browser blocks the embed, open it directly.</span>
-                  <a href={RADAR_URL} target="_blank" rel="noreferrer">Open full site ↗</a>
-                </div>
-              </div>
-              <div className="stats-row">
-                <div className="stat">
-                  <div className="stat-num">56</div>
-                  <p>Vendor checks flattened from the source registry — changelogs, pricing, security.</p>
-                </div>
-                <div className="stat">
-                  <div className="stat-num">Weekly</div>
-                  <p>One Monday brief. What changed, who it affects, what to do next.</p>
-                </div>
-                <div className="stat">
-                  <div className="stat-num">100%</div>
-                  <p>Public sources. Every item in your brief links to its source.</p>
-                </div>
-              </div>
-            </div>
+            <article className="card">
+              <span className="status live">Builders — Open</span>
+              <h3>“I want to build with you.”</h3>
+              <p>The repositories are public. Open an issue with a sharp question, or propose a testable improvement — the door is open.</p>
+              <a href={GITHUB_URL} target="_blank" rel="noreferrer" className="card-cta">Browse the repositories →</a>
+            </article>
           </div>
         </div>
       </section>
@@ -243,33 +149,12 @@ export default function HomePage() {
             <p className="kicker gold">The E.L.L.I.A. Suite</p>
             <h2>Systems by job, not a pile of products.</h2>
             <p className="sub">
-              Radar sells on its own site. Navigator deepens Radar.
-              Quadra-Seer is the sovereign lab. Everything else is proof, not another front door.
+              Quadra-Seer is the sovereign lab. Navigator turns AI change into tracked
+              action. Everything else is proof, not another front door.
             </p>
           </div>
 
           <div className="grid-4">
-            <article className="card">
-              <div className="card-icon" aria-hidden="true">📡</div>
-              <div style={{ marginTop: 16 }}>
-                <span className="status live">Live — aichangeradar.com</span>
-              </div>
-              <h3>AI Change Radar</h3>
-              <p>
-                The flagship intelligence platform. AI Change Radar watches the AI vendors
-                your SMB depends on and turns scattered vendor announcements into one
-                actionable weekly brief.
-              </p>
-              <ul>
-                <li>Product, pricing, security &amp; policy change monitoring</li>
-                <li>Severity-ranked briefs with sources and next steps</li>
-                <li>Free plans by stack size — Radar 5 / 15 / Unlimited</li>
-              </ul>
-              <a href={RADAR_URL} target="_blank" rel="noreferrer" className="card-cta">
-                Visit aichangeradar.com →
-              </a>
-            </article>
-
             <article className="card">
               <div className="card-icon" aria-hidden="true">👁️</div>
               <div style={{ marginTop: 16 }}>
@@ -298,15 +183,14 @@ export default function HomePage() {
               </div>
               <h3>AZxAI Navigator</h3>
               <p>
-                The premium action layer for AI Change Radar. Navigator maps your AI
-                operations, matches each vendor change to the workflows it actually
-                touches, and turns act-now alerts into approved, tracked action —
-                free.
+                The action layer for your AI operations. Navigator maps your workflows,
+                matches each vendor change to the ones it actually touches, and turns
+                act-now alerts into approved, tracked action — free.
               </p>
               <ul>
                 <li>Exposure matching: which of your workflows each change hits</li>
                 <li>Decision sandbox and action workspace, with recorded outcomes</li>
-                <li>Runs on AI Change Radar briefs and act-severity alerts</li>
+                <li>Severity-ranked alerts with sources and next steps</li>
               </ul>
               <a href={NAVIGATOR_URL} target="_blank" rel="noreferrer" className="card-cta">
                 Open AZxAI Navigator →
@@ -339,7 +223,7 @@ export default function HomePage() {
               <h3>Vendor Intelligence Briefings</h3>
               <p className="amount" style={{ fontSize: "1.6rem", fontWeight: 700 }}>$199<small> / mo</small></p>
               <p>
-                The software generates weekly briefs free. This service maps them to your
+                The open tools surface AI change free. This service maps it to your
                 actual stack: curated, interpreted briefings plus a quarterly strategy call
                 on what the changes mean for your business. For SMBs already running on AI tools.
               </p>
@@ -355,8 +239,8 @@ export default function HomePage() {
               <h3>AI Adoption Advisory</h3>
               <p className="amount" style={{ fontSize: "1.6rem", fontWeight: 700 }}>$1,500<small> one-time</small></p>
               <p>
-                The action layer on top of Radar&apos;s intelligence. Radar says what changed;
-                this engagement says what to do about it — workflow integration, tool selection,
+                The action layer on top of open-source intelligence. The tools surface
+                what changed; this engagement says what to do about it — workflow integration, tool selection,
                 rollout planning. Pairs with Vendor Intelligence Briefings.
               </p>
               <a href={SERVICES.advisory} target="_blank" rel="noreferrer" className="button-gold" style={{ marginTop: 12, display: "inline-block" }}>
@@ -473,7 +357,7 @@ export default function HomePage() {
               <span className="pillar-num">02 / SIGNAL OVER NOISE</span>
               <h3>Less, but decisive</h3>
               <p>
-                AI Change Radar sends one brief a week, not 400 alerts. Quadra-Seer
+                We send signal, not noise — one decisive brief, not 400 alerts. Quadra-Seer
                 remembers what matters. Every product is edited for the decision,
                 not the feed.
               </p>
@@ -482,7 +366,7 @@ export default function HomePage() {
               <span className="pillar-num">03 / HONEST BY DESIGN</span>
               <h3>Labeled, sourced, verifiable</h3>
               <p>
-                Simulated is labeled simulated. Every radar item cites its public
+                Simulated is labeled simulated. Every claim cites its public
                 source. Pricing is plain. We would rather under-promise in writing
                 than over-promise in marketing.
               </p>
@@ -517,15 +401,15 @@ export default function HomePage() {
             <p className="kicker">About</p>
             <h2>E.L.L.I.A. Tech Collaboration</h2>
             <p className="sub" style={{ maxWidth: "none" }}>
-              E.L.L.I.A. Tech Collaboration is a Texas LLC building a small, deliberate suite of
-              AI systems for independent operators — founders, SMB owners, and thinkers
-              who want leverage without dependence. The studio ships in public: AI Change
-              Radar is live and taking subscriptions today, and the sovereign line is in
-              active development.
+              E.L.L.I.A. Tech Collaboration is a community of software and hardware
+              developers working towards open source products — building a small,
+              deliberate suite of AI systems for independent operators: founders,
+              SMB owners, and thinkers who want leverage without dependence. The
+              community ships in public, and the sovereign line is in active development.
             </p>
             <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 28 }}>
-              <a href={RADAR_URL} target="_blank" rel="noreferrer" className="button-primary">
-                See the live flagship →
+              <a href={GITHUB_URL} target="_blank" rel="noreferrer" className="button-primary">
+                Browse the open projects →
               </a>
               <a href="mailto:anthony.castro@axiomzetainnovations.org" className="button-ghost">
                 anthony.castro@axiomzetainnovations.org
@@ -536,9 +420,9 @@ export default function HomePage() {
             <h3 style={{ marginTop: 0 }}>At a glance</h3>
             <ul>
               <li><span><strong style={{ color: "var(--text)" }}>Entity:</strong> E.L.L.I.A. Tech Collaboration (Texas)</span></li>
-              <li><span><strong style={{ color: "var(--text)" }}>Flagship:</strong> AI Change Radar — live at aichangeradar.com</span></li>
+              <li><span><strong style={{ color: "var(--text)" }}>Mission:</strong> a community of software and hardware developers working towards open source products</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Sovereign line:</strong> Quadra-Seer Sovereign (local-first chatbot)</span></li>
-              <li><span><strong style={{ color: "var(--text)" }}>Canonical product home:</strong> AI Change Radar at aichangeradar.com</span></li>
+              <li><span><strong style={{ color: "var(--text)" }}>Open source:</strong> every project public under AGPL-3.0</span></li>
               <li><span><strong style={{ color: "var(--text)" }}>Official LLC site:</strong> for entity, verification, and contact</span></li>
             </ul>
           </div>
